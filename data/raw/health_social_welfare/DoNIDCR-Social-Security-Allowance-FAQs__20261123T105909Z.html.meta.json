@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "DoNIDCR — Social Security Allowance FAQs",
+  "source_url": "https://donidcr.gov.np/pages/mostly-asked-questions--social-security-4/",
+  "document_type": "faq",
+  "fetched_at": "2026-11-23T10:59:01.310211+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 196815,
+  "sha256": "f7550b3757693ef14da4284b3a999ce7fc13f5d535b133f0b4a99e84c619913e",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\health_social_welfare\\DoNIDCR-Social-Security-Allowance-FAQs__20261123T105909Z.html",
+  "error_message": null
+}

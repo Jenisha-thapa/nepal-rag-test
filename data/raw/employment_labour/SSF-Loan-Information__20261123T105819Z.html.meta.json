@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "SSF — Loan Information",
+  "source_url": "https://ssf.gov.np/list/information-about-loan",
+  "document_type": "scheme",
+  "fetched_at": "2026-11-23T10:58:19.258530+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 101679,
+  "sha256": "ead4f3267bae4e8bd30c5e0c251691d5257ba19ef9732fb55d61168ba162925c",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\employment_labour\\SSF-Loan-Information__20261123T105819Z.html",
+  "error_message": null
+}

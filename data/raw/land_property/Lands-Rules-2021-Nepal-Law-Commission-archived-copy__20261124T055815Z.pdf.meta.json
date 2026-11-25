@@ -1,0 +1,16 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "Land & Property Services",
+  "source_name": "Lands Rules 2021 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20200331133332id_/lawcommission.gov.np/np/wp-content/uploads/2019/11/भूमि-सम्बन्धी-नियमहरू-२०२१.pdf",
+  "document_type": "rules",
+  "fetched_at": "2026-11-24T05:58:06.197202+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 1068401,
+  "sha256": "97a1c41792da7c18746e67bcf50bc1c0b6056d18fa1f5abe2e41b158711f723c",
+  "saved_path": "data/raw/land_property/Lands-Rules-2021-Nepal-Law-Commission-archived-copy__20261124T055815Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

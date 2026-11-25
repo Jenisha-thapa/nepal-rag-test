@@ -1,0 +1,16 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "Foreign Employment Act 2064 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20260914170426id_/https://giwmscdnone.gov.np/media/pdf_upload/13.%20%E0%A4%B5%E0%A5%88%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A4%BF%E0%A4%95%20%E0%A4%B0%E0%A5%8B%E0%A4%9C%E0%A4%97%E0%A4%BE%E0%A4%B0%20%E0%A4%90%E0%A4%A8%2C%20%E0%A5%A8%E0%A5%A6%E0%A5%AC%E0%A5%AA_xntmf9a.pdf",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T05:58:15.215137+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 1322262,
+  "sha256": "f220bf2a32aa99366c81682257ae2af2c5ac90368ef9919139ce1209949da559",
+  "saved_path": "data/raw/employment_labour/Foreign-Employment-Act-2064-Nepal-Law-Commission-archived-copy__20261124T055824Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

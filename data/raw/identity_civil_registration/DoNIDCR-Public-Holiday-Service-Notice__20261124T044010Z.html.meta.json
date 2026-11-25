@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "identity_civil_registration",
+  "source_name": "DoNIDCR Public Holiday Service Notice",
+  "source_url": "https://donidcr.gov.np/content/427/notice-regarding-service-delivery-even-on-public/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:40:09.143137+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 144449,
+  "sha256": "98b522a316bacf684d00d65260e43fc2d5f4261dbd937d79d46b3da4cac94b3c",
+  "saved_path": "data/raw/identity_civil_registration/DoNIDCR-Public-Holiday-Service-Notice__20261124T044010Z.html",
+  "error_message": null
+}

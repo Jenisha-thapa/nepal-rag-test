@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "Identity & Civil Registration",
+  "source_name": "DoNIDCR — Civil Registration FAQs (Nepali Missions Abroad)",
+  "source_url": "https://donidcr.gov.np/pages/often-asked-questions--registration--registration-of-nepali-6",
+  "document_type": "faq",
+  "fetched_at": "2026-11-23T11:01:21.836435+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 163315,
+  "sha256": "58842322811815a2d8eb62ac110e133d1b298db32e1d090f1c023a5d99c1023c",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\identity_civil_registration\\DoNIDCR-Civil-Registration-FAQs-Nepali-Missions-Abroad__20261123T110122Z.html",
+  "error_message": null
+}

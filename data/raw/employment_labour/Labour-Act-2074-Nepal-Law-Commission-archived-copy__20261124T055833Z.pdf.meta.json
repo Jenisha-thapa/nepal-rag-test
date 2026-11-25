@@ -1,0 +1,16 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "Labour Act 2074 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20261016075157id_/https://giwmscdnone.gov.np/media/pdf_upload/15.%20%20%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%AE%20%E0%A4%90%E0%A4%A8%2C_oinkgks.pdf",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T05:58:24.333827+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 1726028,
+  "sha256": "c4df3f79b31c1cbf90717e5e4969d18bde43f67e2eeab71dfa405f9fadaf8e92",
+  "saved_path": "data/raw/employment_labour/Labour-Act-2074-Nepal-Law-Commission-archived-copy__20261124T055833Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "DoFE — FAQs",
+  "source_url": "https://dofe.gov.np/faq/",
+  "document_type": "faq",
+  "fetched_at": "2026-11-23T10:55:53.854725+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 186651,
+  "sha256": "1ebbebdfc63311a7ee30c714ada5b0674ba0bb0f9b532f4789f17208704cf199",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\employment_labour\\DoFE-FAQs__20261123T105554Z.html",
+  "error_message": null
+}

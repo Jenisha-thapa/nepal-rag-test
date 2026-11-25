@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "HIB — Services",
+  "source_url": "https://hib.gov.np/services-list/",
+  "document_type": "services",
+  "fetched_at": "2026-11-23T10:57:18.089118+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 168900,
+  "sha256": "c95671022b5da8afefc27a87e7d85b55a4e69198a885533be6d31327ef8d70d0",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\health_social_welfare\\HIB-Services__20261123T105725Z.html",
+  "error_message": null
+}

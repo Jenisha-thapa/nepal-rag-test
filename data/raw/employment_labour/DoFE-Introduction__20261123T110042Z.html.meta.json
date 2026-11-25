@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "DoFE — Introduction",
+  "source_url": "https://dofe.gov.np/pages/introduction",
+  "document_type": "about",
+  "fetched_at": "2026-11-23T11:00:33.448312+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 223215,
+  "sha256": "78602646feaaacaa204ba1fc0feebe2fd01fa222552869d23182b4c58c1db7f8",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\employment_labour\\DoFE-Introduction__20261123T110042Z.html",
+  "error_message": null
+}

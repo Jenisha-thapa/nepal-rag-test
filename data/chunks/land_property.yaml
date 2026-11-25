@@ -1,0 +1,58 @@
+# Knowledge base — Land & Property (Department of Land Management and Archive, DoLMA)
+# Hand-written chunks from the crawled pages (fetched 2026-11-23).
+# Note: dolma.gov.np publishes little procedural content as HTML (its citizen-charter page
+# has no text); land-service procedures are delivered by the Malpot (land revenue) offices.
+domain_id: land_property
+
+chunks:
+  - id: dolma-about
+    url: https://dolma.gov.np/pages/introduction-1/
+    section: भूमि व्यवस्थापन तथा अभिलेख विभाग — परिचय
+    type: about
+    text: |
+      भूमि व्यवस्थापन तथा अभिलेख विभाग पहिलेका मालपोत विभाग र भूमिसुधार विभागलाई मिति २०५७/३/२६ को सरकारी निर्णयले गाभेर बनेको विभाग हो (पहिले भूमिसुधार तथा व्यवस्थापन विभाग)। यो भूमि व्यवस्था सम्बन्धी मन्त्रालय अन्तर्गत छ।
+      विभाग अन्तर्गत ११० वटा मालपोत कार्यालय र २१ वटा भूमिसुधार तथा मालपोत कार्यालय छन्; जग्गा सम्बन्धी सेवा यिनै कार्यालयबाट दिइन्छ।
+      The Department of Land Management and Archive (DoLMA) oversees 110 Malpot (land revenue) offices and 21 land reform and Malpot offices, which deliver land services.
+
+  - id: dolma-mission
+    url: https://dolma.gov.np/
+    section: भूमि व्यवस्थापन तथा अभिलेख विभाग — मिशन
+    type: about
+    text: |
+      विभागको लक्ष्य र दृष्टि: सर्वसाधारण जनताको सेवा, सुविधा र आर्थिक हित कायम राख्न भू-अभिलेख तथा श्रेस्ता व्यवस्थित गरी जग्गाधनी तथा मोहीको हक संरक्षण गर्ने; भूमि व्यवस्थापन कार्यलाई सेवामुखी एवम् सूचनामूलक बनाउने।
+      Mission: keep land records in order to protect the rights of landowners and tenants, and make land administration service-oriented.
+
+  - id: dolma-digital-records
+    url: https://dolma.gov.np/pages/introduction-1/
+    section: भू-अभिलेख सूचना व्यवस्थापन प्रणाली (LRIMS) र अनलाइन सेवा
+    type: services
+    text: |
+      एशियाली विकास बैंकको सहयोगमा भू-अभिलेख सूचना व्यवस्थापन प्रणाली (Land Records Information Management System, LRIMS) सञ्चालनमा छ। यसअन्तर्गत डिल्लीबजार, कलंकी, चाबहिल, ललितपुर, भक्तपुर, कास्की, मोरङ, पर्सा, चितवन, मकवानपुर, बाग्लुङ, बाँके, काभ्रे र धादिङ गरी १४ मालपोत कार्यालयको मोठ श्रेस्ता र रोक्काको विवरण डिजिटाइज गरी घरजग्गा सम्बन्धी सेवा अनलाइन दिने लक्ष्य छ।
+      विभागका अनलाइन सेवाहरू: Land Record Management System, Public Access Model र एकीकृत कार्यालय व्यवस्थापन प्रणाली।
+
+  - id: dolma-citizen-charter-compensation
+    url: https://dolma.gov.np/pages/introduction-1/
+    section: मालपोत कार्यालय — क्षतिपूर्ति सहितको नागरिक बडापत्र
+    type: about
+    text: |
+      "क्षतिपूर्ति सहितको नागरिक वडापत्र व्यवस्थापन निर्देशिका, २०६९" (मन्त्रिपरिषद् निर्णय २०६९/१०/१५) अनुसार मालपोत कार्यालयहरूमा क्षतिपूर्ति सहितको नागरिक बडापत्र लागु गरिएको छ।
+      २०७० को सुरुदेखि २० कार्यालय (डिल्लीबजार, कलंकी, चाबहिल, ललितपुर, भक्तपुर, कास्की, मोरङ, पर्सा, धनुषा, भद्रपुर, चितवन, सुनसरी, मकवानपुर, दाङ, बाँके, कैलाली, बर्दिया, काभ्रे, रुपन्देही, कञ्चनपुर), २०७० भाद्रदेखि थप १५ कार्यालय र २०७२ असार १५ देखि थप १३ कार्यालयमा लागु भएको छ।
+
+  - id: dolma-officials
+    url: https://dolma.gov.np/
+    section: भूमि व्यवस्थापन तथा अभिलेख विभाग — पदाधिकारी र सम्पर्क
+    type: contact
+    text: |
+      भूमि व्यवस्थापन तथा अभिलेख विभागका पदाधिकारी:
+      - महानिर्देशक: योगेन्द्र प्रसाद दुलाल, dg@dolma.gov.np
+      - निर्देशक तथा प्रवक्ता: कृष्ण प्रसाद भण्डारी, 9851314049, planning@dolma.gov.np
+      - शाखा अधिकृत (सूचना अधिकारी): छत्र बहादुर देवकोटा, 9764398636, info@dolma.gov.np
+      DoLMA contacts: Director General Yogendra Prasad Dulal; spokesperson Krishna Prasad Bhandari 9851314049; information officer Chhatra Bahadur Devkota 9764398636, info@dolma.gov.np.
+
+  - id: dolma-land-directive
+    url: https://dolma.gov.np/
+    section: भूमि प्रशासन निर्देशिका
+    type: notice
+    date_bs: २९ असोज, २०८३
+    text: |
+      विभागले "भूमि प्रशासन निर्देशिका" (तेस्रो संशोधन सहित, २०८१) आफ्नो वेबसाइटमा प्रकाशित गरेको छ (हाइलाइट, २९ असोज, २०८३)। मालपोत कार्यालयबाट हुने जग्गा प्रशासन सम्बन्धी कामका लागि यो निर्देशिका हेर्न सकिन्छ। साथै "वेबसाइट स्थानान्तरण तथा सामग्री अद्यावधिक गर्ने सम्बन्धमा" सूचना पनि प्रकाशित छ।

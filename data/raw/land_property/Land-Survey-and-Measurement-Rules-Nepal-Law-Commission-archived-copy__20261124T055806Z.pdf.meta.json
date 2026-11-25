@@ -1,0 +1,16 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "Land & Property Services",
+  "source_name": "Land Survey and Measurement Rules (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20201020181546id_/lawcommission.gov.np/np/wp-content/uploads/2018/10/जग्गा-नाप-जाँच-नियमावली-२.pdf",
+  "document_type": "rules",
+  "fetched_at": "2026-11-24T05:57:56.797540+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 502376,
+  "sha256": "f8d4db4c58797bb628d47d5ee64946e35c1eb15299d67e1af70fb028017901ad",
+  "saved_path": "data/raw/land_property/Land-Survey-and-Measurement-Rules-Nepal-Law-Commission-archived-copy__20261124T055806Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

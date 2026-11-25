@@ -1,0 +1,60 @@
+[project]
+name = "nepal-rag-agent"
+version = "2.0.0"
+description = "Nepal Sewa AI — citation-grounded RAG for Nepal government public services"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Jenny Thapa" }]
+
+dependencies = [
+    # ingestion & processing
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+    "PyYAML>=6.0",
+    "pymupdf>=1.24",
+    # retrieval
+    "sentence-transformers>=3.0",
+    "torch>=2.4",               # Linux: CPU-only wheels (see [tool.uv.sources]) — no 3 GB of CUDA packages
+    "rank-bm25>=0.2.2",
+    "chromadb>=0.5",
+    "numpy>=1.24",
+    # generation (LLM providers)
+    "google-genai>=1.0",
+    "ollama>=0.4",
+    "openai>=1.0",
+    "anthropic>=0.40",
+    # web app
+    "python-dotenv>=1.0",
+    "fastapi[standard]>=0.162.5",
+]
+
+[project.scripts]
+nepal-rag = "src.cli:main"
+
+# `uv run fastapi dev` / `uv run fastapi run` import the app from here
+[tool.fastapi]
+entrypoint = "src.main:app"
+
+# On Linux (e.g. a cloud VM) install PyTorch's CPU-only build instead of the default CUDA build.
+# Windows and macOS wheels from PyPI are already CPU builds.
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform == 'linux'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

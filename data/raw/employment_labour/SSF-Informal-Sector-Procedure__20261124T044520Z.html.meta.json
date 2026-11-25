@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Informal Sector Procedure",
+  "source_url": "https://ssf.gov.np/list/act_regulation/informal-and-self-employed-sector-social-security-scheme-operation-procedure-with-first-amendment-2079",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T04:45:20.185761+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 92384,
+  "sha256": "e7ad23ee5b1f8ed3dfa89def839438a9e27d63b6f4db5742cad12d2d9e4340c3",
+  "saved_path": "data/raw/employment_labour/SSF-Informal-Sector-Procedure__20261124T044520Z.html",
+  "error_message": null
+}

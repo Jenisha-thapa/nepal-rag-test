@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "Social Security Fund — Official Portal",
+  "source_url": "https://ssf.gov.np",
+  "document_type": "portal",
+  "fetched_at": "2026-11-19T16:35:30.864295+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 185306,
+  "sha256": "2c7ee4a3d71f6683c69a79f15b856f5f2393f108486903ea1bc85b8bc545ecd7",
+  "saved_path": "data\\raw\\employment_labour\\Social-Security-Fund-Official-Portal__20261119T163531Z.html",
+  "error_message": null
+}

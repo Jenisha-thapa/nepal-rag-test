@@ -1,0 +1,121 @@
+# Retrieval benchmark — `uv run nepal-rag eval`
+# A question is a hit@k if ANY `expect` string appears in one of the top-k retrieved passages.
+# Retrieval only (no LLM): fast and repeatable. Questions are phrased the way citizens ask,
+# not copied from the chunks. `expect` lists the fact in the knowledge-base wording AND, where
+# it differs, the source page's own wording, so manual and auto chunking are scored fairly.
+
+# ── Identity & civil registration ────────────────────────────────────────────
+- q: "राष्ट्रिय परिचयपत्र बनाउन के के कागजात चाहिन्छ?"
+  expect: ["नागरिकताको सक्कल प्रमाणपत्र"]
+- q: "Who is eligible for a national ID card in Nepal?"
+  expect: ["१६ वर्ष उमेर पुरा"]
+- q: "राष्ट्रिय परिचयपत्रको लागि अनलाइन आवेदन कसरी दिने?"
+  expect: ["राष्ट्रिय परिचयपत्रको अनलाईन आवेदन", "अनलाईन आवेदनमा गई"]
+- q: "परिचयपत्र हराएमा नयाँ लिन कति पैसा तिर्नुपर्छ?"
+  expect: ["रु. ५००", "पाँच सय रुपैयाँ"]
+- q: "राष्ट्रिय परिचयपत्र नम्बर कति अंकको हुन्छ?"
+  expect: ["१० अंकको"]
+- q: "How can I check my national ID number by SMS?"
+  expect: ["३०००१"]
+- q: "राष्ट्रिय परिचयपत्र तथा पञ्जीकरण विभागको टोल फ्री नम्बर कति हो?"
+  expect: ["११४७"]
+- q: "परिचयपत्रमा गलत विवरण परेको छ, कसरी सच्याउने?"
+  expect: ["परिचयपत्र नम्बर परिवर्तन हुँदैन", "परिचयपत्र नम्बर परिवर्तन हुदैन"]
+- q: "बच्चाको जन्म दर्ता गर्न के के कागज लैजानुपर्छ?"
+  expect: ["जन्म प्रतिवेदन"]
+- q: "जन्म दर्ता कति दिनभित्र गरे निःशुल्क हुन्छ?"
+  expect: ["३५ दिनभित्र"]
+- q: "विवाह दर्ता गर्न कति वटा फोटो चाहिन्छ?"
+  expect: ["२/२ प्रति फोटो"]
+- q: "Can I register my baby's birth at the Nepali embassy in Qatar?"
+  expect: ["दोहा"]
+- q: "विदेशको नेपाली दूतावासमा ढिलो जन्म दर्ता गर्दा कति शुल्क लाग्छ?"
+  expect: ["२५ अमेरिकी डलर", "२५ अमेरिकि डलर"]
+- q: "बसाइँसराइ दर्ता गर्न के चाहिन्छ?"
+  expect: ["लगत हस्तान्तरण फाराम"]
+- q: "मृत्यु दर्ता किन गर्नुपर्छ?"
+  expect: ["विधवा प्रमाणित"]
+
+# ── Land & property ──────────────────────────────────────────────────────────
+- q: "भूमि व्यवस्थापन विभागको सूचना अधिकारी को हुन्?"
+  expect: ["छत्र बहादुर देवकोटा"]
+- q: "Who is the director general of the Department of Land Management and Archive?"
+  expect: ["योगेन्द्र प्रसाद दुलाल"]
+- q: "भूमि व्यवस्थापन तथा अभिलेख विभागको मिशन के हो?"
+  expect: ["मोहीको हक"]
+- q: "जग्गा सम्बन्धी सेवा कुन कार्यालयबाट पाइन्छ?"
+  expect: ["मालपोत कार्यालय"]
+- q: "How do I register land in Nepal?"
+  expect: ["मालपोत तथा भूमिसुधार कार्यालयहरूले"]
+- q: "भूमि व्यवस्थापन मन्त्रालयको हटलाइन नम्बर कति हो?"
+  expect: ["9851401843"]
+
+# ── Employment & labour ──────────────────────────────────────────────────────
+- q: "वैदेशिक रोजगारमा जाँदा बीमा कति तिर्नुपर्छ?"
+  expect: ["३,७०८", "रु ३७०८"]
+- q: "व्यक्तिगत श्रम स्वीकृतिका लागि के के कागजपत्र चाहिन्छ?"
+  expect: ["९० दिनभन्दा बढी म्याद"]
+- q: "How do I apply for a labour permit online?"
+  expect: ["feims.dofe.gov.np"]
+- q: "FEIMS को पासवर्ड बिर्सिएँ, के गर्ने?"
+  expect: ["Forgot Password"]
+- q: "वैदेशिक रोजगार विभागको राहत तथा उद्धार शाखाको नम्बर"
+  expect: ["9765013774"]
+- q: "वैदेशिक रोजगार विभागको श्रम स्वीकृति प्रगति विवरण"
+  expect: ["श्रम स्वीकृति प्रगति"]
+- q: "सामाजिक सुरक्षा कोषको टोल फ्री नम्बर कति हो?"
+  expect: ["१११६"]
+- q: "SSF call center phone number"
+  expect: ["१११६", "1116"]
+- q: "How do I withdraw my retirement money from the Social Security Fund?"
+  expect: ["sosys.ssf.gov.np"]
+- q: "सामाजिक सुरक्षा कोषले कस्ता सापटी दिन्छ?"
+  expect: ["शैक्षिक सापटी"]
+- q: "सामाजिक सुरक्षा कोषमा औषधि उपचार दाबी कति दिनमा भुक्तानी हुन्छ?"
+  expect: ["३० दिनभित्र", "३० वदनवभत्र"]
+
+- q: "How much do workers and employers contribute to the Social Security Fund?"
+  expect: ["कुल ३१ प्रतिशत"]
+- q: "वैदेशिक रोजगारमा जाने श्रमिकले सामाजिक सुरक्षा कोषमा कति प्रतिशत योगदान गर्नुपर्छ?"
+  expect: ["२१.३३ प्रतिशत"]
+- q: "सामाजिक सुरक्षा कोषबाट पेन्सन पाउन कति महिना योगदान चाहिन्छ?"
+  expect: ["१८० महिना"]
+- q: "What is the toll-free number of the Department of Foreign Employment?"
+  expect: ["1140"]
+# ── Health & social welfare ──────────────────────────────────────────────────
+- q: "७० वर्ष पुगेका जेष्ठ नागरिकले मासिक कति भत्ता पाउँछन्?"
+  expect: ["४०००"]
+- q: "एकल महिलाले मासिक कति सामाजिक सुरक्षा भत्ता पाउँछन्?"
+  expect: ["२६६०"]
+- q: "How much monthly allowance does a disabled person with a red card get?"
+  expect: ["३९९०", "3990"]
+- q: "सामाजिक सुरक्षा भत्ताको लागि के के कागजपत्र चाहिन्छ?"
+  expect: ["पेश गर्नुपर्ने कागजपत्र", "कागजपत्र पेश गर्नुपर्दछ", "पतिको मृत्यु दर्ताको प्रमाणपत्र"]
+- q: "भत्ताको परिचयपत्र कहिलेसम्म नवीकरण गरिसक्नुपर्छ?"
+  expect: ["भाद्र महिनाको मसान्त", "भाद्र महिना मसान्त", "श्रावण र भाद्र महिना मसान्तभित्र"]
+- q: "४० वर्षका एकल महिलाले भत्ता पाउँछन्?"
+  expect: ["राजपत्रमा सूचना"]
+- q: "स्वास्थ्य बीमा गर्न कति पैसा तिर्नुपर्छ?"
+  expect: ["रु. ३,५००", "रु.३,५००/-"]
+- q: "How much treatment does health insurance cover for a family of five?"
+  expect: ["रु. १,००,०००", "रु.१,००,०००/-"]
+- q: "स्वास्थ्य बीमामा सहभुक्तानी कति प्रतिशत लाग्छ?"
+  expect: ["१०%"]
+- q: "स्वास्थ्य बीमा कार्ड हराएमा के गर्ने?"
+  expect: ["रु. ५०"]
+- q: "स्वास्थ्य बीमाको हटलाइन नम्बर कति हो?"
+  expect: ["११६१"]
+- q: "परिवारमा ५ जनाभन्दा बढी सदस्य भए स्वास्थ्य बीमामा थप कति तिर्नुपर्छ?"
+  expect: ["७००"]
+
+# ── Laws (Acts and Rules from the Nepal Law Commission) ──────────────────────
+- q: "My lalpurja says 6 aana but my land is only 3 aana. What can I do?"
+  expect: ["क्षेत्रफल वा किसिम फरक परेको"]
+- q: "Who is a citizen of Nepal by descent?"
+  expect: ["वंशजको नाताले नेपालको नागरिक हुन्छ"]
+- q: "श्रम ऐन अनुसार ओभरटाइम काम गरेमा कति पारिश्रमिक पाइन्छ?"
+  expect: ["१.५", "डेढी"]
+- q: "ज्येष्ठ नागरिक भत्ता पाउन कति वर्ष उमेर पुग्नुपर्छ?"
+  expect: ["६८ वर्ष", "७० वर्ष"]
+- q: "रातो रङको अपाङ्गता परिचयपत्र कसलाई दिइन्छ?"
+  expect: ["पूर्ण अशक्त अपाङ्गताको लागि रातो"]

@@ -1,0 +1,16 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "Senior Citizens Act 2063 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20260117214140id_/https://giwmscdnone.gov.np/media/app/public/275/posts/1720431227_23.pdf",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T05:59:51.963185+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 981175,
+  "sha256": "47169ce3611bbe58f35e75bf6a61b177a2c1c9f62a110f66cf71c8a15f492647",
+  "saved_path": "data/raw/health_social_welfare/Senior-Citizens-Act-2063-Nepal-Law-Commission-archived-copy__20261124T060002Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

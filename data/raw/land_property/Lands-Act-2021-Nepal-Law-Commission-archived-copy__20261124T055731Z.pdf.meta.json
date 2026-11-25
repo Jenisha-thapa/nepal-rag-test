@@ -1,0 +1,16 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "Land & Property Services",
+  "source_name": "Lands Act 2021 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20240617053921id_/lawcommission.gov.np/np/wp-content/uploads/2021/01/भूमि-सम्बन्धी-ऐन-२०२१.pdf",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T05:57:22.427458+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 1393804,
+  "sha256": "3ca87b90be225fee78de49076fa99f843ddb2f7083cf1aab9290d72be3863331",
+  "saved_path": "data/raw/land_property/Lands-Act-2021-Nepal-Law-Commission-archived-copy__20261124T055731Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

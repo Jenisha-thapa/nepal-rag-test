@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "Land & Property Services",
+  "source_name": "DoLMA — Citizen Charter",
+  "source_url": "https://dolma.gov.np/citizen-charter/",
+  "document_type": "charter",
+  "fetched_at": "2026-11-23T10:56:08.778698+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 97262,
+  "sha256": "7ea0eff46d4453043e23e0f3cfc44cd3fdaa113736955edfc4eff034134d8e8a",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\land_property\\DoLMA-Citizen-Charter__20261123T105614Z.html",
+  "error_message": null
+}

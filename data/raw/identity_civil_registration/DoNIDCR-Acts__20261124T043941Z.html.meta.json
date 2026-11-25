@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "identity_civil_registration",
+  "source_name": "DoNIDCR Acts",
+  "source_url": "https://donidcr.gov.np/category/common_act",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T04:39:26.254867+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 130848,
+  "sha256": "66c814c8d9076a24d360c4fd2ea05d86dd916002517019f67e1a06f07f452e2e",
+  "saved_path": "data/raw/identity_civil_registration/DoNIDCR-Acts__20261124T043941Z.html",
+  "error_message": null
+}

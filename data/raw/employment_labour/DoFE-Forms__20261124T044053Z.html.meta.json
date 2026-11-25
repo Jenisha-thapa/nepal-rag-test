@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "DoFE Forms",
+  "source_url": "https://dofe.gov.np/category/forms",
+  "document_type": "procedure",
+  "fetched_at": "2026-11-24T04:40:52.621468+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 201296,
+  "sha256": "73939f10b1419bcd8fa3130bc91db7b7966949d5bac7dcac85dab5e987ff82b3",
+  "saved_path": "data/raw/employment_labour/DoFE-Forms__20261124T044053Z.html",
+  "error_message": null
+}

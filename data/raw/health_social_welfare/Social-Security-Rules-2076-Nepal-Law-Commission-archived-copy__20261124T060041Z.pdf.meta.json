@@ -1,0 +1,16 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "Social Security Rules 2076 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20240629031803id_/https://www.lawcommission.gov.np/np/wp-content/uploads/2021/01/%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%9C%E0%A4%BF%E0%A4%95-%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE-%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%E0%A4%BE%E0%A4%B5%E0%A4%B2%E0%A5%80-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AC.pdf",
+  "document_type": "rules",
+  "fetched_at": "2026-11-24T06:00:32.479573+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 574106,
+  "sha256": "bcdc85a31edb0f3671acd956386321f91b1ef21bf36d83a7fac17d1c5e14baf9",
+  "saved_path": "data/raw/health_social_welfare/Social-Security-Rules-2076-Nepal-Law-Commission-archived-copy__20261124T060041Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

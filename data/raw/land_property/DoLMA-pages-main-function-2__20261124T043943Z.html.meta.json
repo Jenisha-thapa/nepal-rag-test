@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "DoLMA pages/main-function-2/",
+  "source_url": "https://dolma.gov.np/pages/main-function-2/",
+  "document_type": "about",
+  "fetched_at": "2026-11-24T04:39:40.106175+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 142777,
+  "sha256": "71933db0ea766a6875e9c0ba57a9e8155738faf45bc521623020f958827468f0",
+  "saved_path": "data/raw/land_property/DoLMA-pages-main-function-2__20261124T043943Z.html",
+  "error_message": null
+}

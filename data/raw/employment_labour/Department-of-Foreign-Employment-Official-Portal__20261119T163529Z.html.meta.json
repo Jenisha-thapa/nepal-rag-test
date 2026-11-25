@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "Department of Foreign Employment — Official Portal",
+  "source_url": "https://dofe.gov.np/",
+  "document_type": "portal",
+  "fetched_at": "2026-11-19T16:35:29.643067+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 329916,
+  "sha256": "a8392a92c5b0cee963589aac614907a6afced4a168ab06f9b02abf309b9d3243",
+  "saved_path": "data\\raw\\employment_labour\\Department-of-Foreign-Employment-Official-Portal__20261119T163529Z.html",
+  "error_message": null
+}

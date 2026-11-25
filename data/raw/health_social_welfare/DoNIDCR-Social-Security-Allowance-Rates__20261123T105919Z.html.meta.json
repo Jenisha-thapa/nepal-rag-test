@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "DoNIDCR — Social Security Allowance Rates",
+  "source_url": "https://donidcr.gov.np/pages/social-security-allowance-rate",
+  "document_type": "rates",
+  "fetched_at": "2026-11-23T10:59:09.525340+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 153067,
+  "sha256": "cc5f09aecab0e8e1d02376a15a83e05f4cd005176fe58e96a14ca14080083e92",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\health_social_welfare\\DoNIDCR-Social-Security-Allowance-Rates__20261123T105919Z.html",
+  "error_message": null
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "dos.gov.np/pages/citizen-charter",
+  "source_url": "https://dos.gov.np/pages/citizen-charter/",
+  "document_type": "charter",
+  "fetched_at": "2026-11-24T04:44:49.586080+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 133051,
+  "sha256": "aa8bbb1901359f4c688a43b5f590dd85aacbd3bc309d1c0fb54dd1a3d4253c62",
+  "saved_path": "data/raw/land_property/dos.gov.np-pages-citizen-charter__20261124T044450Z.html",
+  "error_message": null
+}

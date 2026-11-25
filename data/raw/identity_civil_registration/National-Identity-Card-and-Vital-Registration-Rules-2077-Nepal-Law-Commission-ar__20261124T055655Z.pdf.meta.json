@@ -1,0 +1,16 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "Identity & Civil Registration",
+  "source_name": "National Identity Card and Vital Registration Rules 2077 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20230602152636id_/https://www.lawcommission.gov.np/np/wp-content/uploads/2022/04/%E0%A4%B0%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AF-%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%9A%E0%A4%AF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0-%E0%A4%A4%E0%A4%A5%E0%A4%BE-%E0%A4%AA%E0%A4%9E%E0%A5%8D%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3-%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%E0%A4%BE%E0%A4%B5%E0%A4%B2%E0%A5%80-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AD.pdf",
+  "document_type": "rules",
+  "fetched_at": "2026-11-24T05:56:45.992415+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 1048576,
+  "sha256": "3f41a00d3ab05b445517b3d59680e4e380986b032e08faac5d70193c5389735f",
+  "saved_path": "data/raw/identity_civil_registration/National-Identity-Card-and-Vital-Registration-Rules-2077-Nepal-Law-Commission-ar__20261124T055655Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

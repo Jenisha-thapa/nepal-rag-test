@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "Health Insurance Board — Official Portal",
+  "source_url": "https://hib.gov.np",
+  "document_type": "portal",
+  "fetched_at": "2026-11-23T10:55:36.787483+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 263826,
+  "sha256": "76413847eb8de84914697f13ee9b7117cc5d476f6773085b078102a87177fde1",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\health_social_welfare\\Health-Insurance-Board-Official-Portal__20261123T105536Z.html",
+  "error_message": null
+}

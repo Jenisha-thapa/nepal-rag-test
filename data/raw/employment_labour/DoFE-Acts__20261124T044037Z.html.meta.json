@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "DoFE Acts",
+  "source_url": "https://dofe.gov.np/category/act",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T04:40:35.805411+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 191974,
+  "sha256": "669d56f0f607de6ded9d40b7eed3fcaa2672dd787e7636c70c336e6f9b435d46",
+  "saved_path": "data/raw/employment_labour/DoFE-Acts__20261124T044037Z.html",
+  "error_message": null
+}

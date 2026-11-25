@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "MoLCFAGA notice 393",
+  "source_url": "https://molcfaga.gov.np/content/393/land-administration-manual--third-amendment--2081/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:42:26.351211+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 223521,
+  "sha256": "0dd2a3bdd996b1814e1a95ba6877c8f1084474134238cb80670129c4ac31c67b",
+  "saved_path": "data/raw/land_property/MoLCFAGA-notice-393__20261124T044228Z.html",
+  "error_message": null
+}

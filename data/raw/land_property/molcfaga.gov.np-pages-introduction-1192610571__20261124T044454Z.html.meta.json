@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "molcfaga.gov.np/pages/introduction-1192610571",
+  "source_url": "https://molcfaga.gov.np/pages/introduction-1192610571/",
+  "document_type": "about",
+  "fetched_at": "2026-11-24T04:44:54.058760+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 245404,
+  "sha256": "e92560acc830aeea3769e633b91a8aae1db8641605ef5d3a2dbd65f45aab2606",
+  "saved_path": "data/raw/land_property/molcfaga.gov.np-pages-introduction-1192610571__20261124T044454Z.html",
+  "error_message": null
+}

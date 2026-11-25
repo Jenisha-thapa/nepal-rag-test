@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "identity_civil_registration",
+  "source_name": "DoNIDCR Refugee Minor Birth Notice",
+  "source_url": "https://donidcr.gov.np/content/180/registration-of-birth-of-refugee-minor-in/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:41:55.698180+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 143942,
+  "sha256": "2fc4bb0d651dec62492bfb3b64490de6b56a55f4c0aa587f8d486536a802b008",
+  "saved_path": "data/raw/identity_civil_registration/DoNIDCR-Refugee-Minor-Birth-Notice__20261124T044158Z.html",
+  "error_message": null
+}

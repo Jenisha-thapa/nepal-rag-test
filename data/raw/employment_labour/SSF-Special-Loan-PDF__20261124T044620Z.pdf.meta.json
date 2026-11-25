@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Special Loan PDF",
+  "source_url": "https://ssf.gov.np/images/news/17457317597958_special%20loan.pdf",
+  "document_type": "pdf",
+  "fetched_at": "2026-11-24T04:46:20.198327+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 294168,
+  "sha256": "b4279699a13c3ca429cb2ee657d98f0141ce7d94f5dcd6904521bfe9e066fdbb",
+  "saved_path": "data/raw/employment_labour/SSF-Special-Loan-PDF__20261124T044620Z.pdf",
+  "error_message": null
+}

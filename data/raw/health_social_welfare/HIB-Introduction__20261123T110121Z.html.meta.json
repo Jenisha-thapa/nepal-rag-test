@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "HIB — Introduction",
+  "source_url": "https://hib.gov.np/pages/introduction",
+  "document_type": "about",
+  "fetched_at": "2026-11-23T11:00:42.040352+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 207728,
+  "sha256": "68bc25e9d49c11c935b6af8479daca969e9d41e3d721bf1e16eff2e81bf201e1",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\health_social_welfare\\HIB-Introduction__20261123T110121Z.html",
+  "error_message": null
+}

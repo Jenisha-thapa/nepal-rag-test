@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "DoNIDCR — Allowance Beneficiary Registration and Renewal Notice",
+  "source_url": "https://donidcr.gov.np/content/446/ss-suchiakarn-navikaran/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-23T10:59:19.700841+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 144346,
+  "sha256": "e7a3f5eade762b1e82dfbf39a34bb2a84f6c5a1c71a1d18bbd3343b6e74bcaa0",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\health_social_welfare\\DoNIDCR-Allowance-Beneficiary-Registration-and-Renewal-Notice__20261123T105933Z.html",
+  "error_message": null
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Application Forms",
+  "source_url": "https://ssf.gov.np/list/application-form",
+  "document_type": "procedure",
+  "fetched_at": "2026-11-24T04:42:47.186978+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 113966,
+  "sha256": "40650cca6918e5e5c88cf84312c1a0082e9c9ff90aed0bec980df201abb5ab41",
+  "saved_path": "data/raw/employment_labour/SSF-Application-Forms__20261124T044247Z.html",
+  "error_message": null
+}

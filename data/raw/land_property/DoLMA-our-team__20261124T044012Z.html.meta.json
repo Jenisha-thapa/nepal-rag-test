@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "DoLMA our-team/",
+  "source_url": "https://dolma.gov.np/our-team/",
+  "document_type": "contact",
+  "fetched_at": "2026-11-24T04:40:10.558349+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 181019,
+  "sha256": "53ef4ba068ad6b046852a48fe9f79f8f278033f151d64fe199e18dc686e100cf",
+  "saved_path": "data/raw/land_property/DoLMA-our-team__20261124T044012Z.html",
+  "error_message": null
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "HIB — Late Renewal Fee Notice",
+  "source_url": "https://hib.gov.np/content/253/important-notice-additional-fee-for-not-in-time/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-23T10:57:43.622347+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 194870,
+  "sha256": "8029a978d716b4238299620a4d4f7ff30c6a5742dd3f3afc21867ad381507afe",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\health_social_welfare\\HIB-Late-Renewal-Fee-Notice__20261123T105745Z.html",
+  "error_message": null
+}

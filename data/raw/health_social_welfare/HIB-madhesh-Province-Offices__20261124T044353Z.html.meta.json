@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "health_social_welfare",
+  "source_name": "HIB madhesh Province Offices",
+  "source_url": "https://hib.gov.np/pages/madhesh-province/",
+  "document_type": "contact",
+  "fetched_at": "2026-11-24T04:43:52.756123+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 230567,
+  "sha256": "2d3bddec0c8949c46fecd150a82ff083533ac21e65717ca53be2fde073abbc0d",
+  "saved_path": "data/raw/health_social_welfare/HIB-madhesh-Province-Offices__20261124T044353Z.html",
+  "error_message": null
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "health_social_welfare",
+  "source_name": "HIB Contacts of District and Province Offices",
+  "source_url": "https://hib.gov.np/content/309/if-related-to-the-district-and-state/",
+  "document_type": "contact",
+  "fetched_at": "2026-11-24T04:40:25.991160+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 194485,
+  "sha256": "123d43759f6c17db5c52a9edf65bcf3a5e510d54e0a4245964ae4a2e45193e1e",
+  "saved_path": "data/raw/health_social_welfare/HIB-Contacts-of-District-and-Province-Offices__20261124T044028Z.html",
+  "error_message": null
+}

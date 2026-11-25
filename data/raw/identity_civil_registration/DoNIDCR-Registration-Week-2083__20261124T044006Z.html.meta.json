@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "identity_civil_registration",
+  "source_name": "DoNIDCR Registration Week 2083",
+  "source_url": "https://donidcr.gov.np/content/422/saptaha/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:40:04.922678+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 143423,
+  "sha256": "d4fef8168abf30e187a0343afa4b88b5ca6142eef3a605021a5298039d29194d",
+  "saved_path": "data/raw/identity_civil_registration/DoNIDCR-Registration-Week-2083__20261124T044006Z.html",
+  "error_message": null
+}

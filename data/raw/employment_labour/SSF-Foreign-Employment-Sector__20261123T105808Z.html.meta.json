@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "SSF — Foreign Employment Sector",
+  "source_url": "https://ssf.gov.np/services/arrangements-related-to-discounts-and-concessions-received-by-workers-in-foreign-employment",
+  "document_type": "scheme",
+  "fetched_at": "2026-11-23T10:58:07.968880+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 86139,
+  "sha256": "141c38709ad277573c79cb0db2fad7c61d1f9ad88396250cf9fa95c99a0e9ea1",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\employment_labour\\SSF-Foreign-Employment-Sector__20261123T105808Z.html",
+  "error_message": null
+}

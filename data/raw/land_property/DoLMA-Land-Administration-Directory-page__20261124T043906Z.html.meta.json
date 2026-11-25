@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "DoLMA Land Administration Directory page",
+  "source_url": "https://dolma.gov.np/content/2/land-administration-directory/",
+  "document_type": "procedure",
+  "fetched_at": "2026-11-24T04:39:06.061335+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 123001,
+  "sha256": "c68ea44be95d49744b1c451debbf4d80471ebc61d11d64bba65caea4835669f0",
+  "saved_path": "data/raw/land_property/DoLMA-Land-Administration-Directory-page__20261124T043906Z.html",
+  "error_message": null
+}

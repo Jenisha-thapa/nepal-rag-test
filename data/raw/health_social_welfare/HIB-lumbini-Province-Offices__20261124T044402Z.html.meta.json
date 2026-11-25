@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "health_social_welfare",
+  "source_name": "HIB lumbini Province Offices",
+  "source_url": "https://hib.gov.np/pages/lumbini-province/",
+  "document_type": "contact",
+  "fetched_at": "2026-11-24T04:44:01.739516+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 268344,
+  "sha256": "b4cc65a5cc5bd7660edda8736261ba54c776a3d7b7abd3d2534cb42e0de53850",
+  "saved_path": "data/raw/health_social_welfare/HIB-lumbini-Province-Offices__20261124T044402Z.html",
+  "error_message": null
+}

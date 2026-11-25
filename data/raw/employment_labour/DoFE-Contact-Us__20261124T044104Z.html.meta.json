@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "DoFE Contact Us",
+  "source_url": "https://dofe.gov.np/contact-us/",
+  "document_type": "contact",
+  "fetched_at": "2026-11-24T04:41:04.274764+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 184108,
+  "sha256": "137f6fbb41befd11535ae75b77e4d73ae9c54e9c4dc47f93c4c9b372a5fb8821",
+  "saved_path": "data/raw/employment_labour/DoFE-Contact-Us__20261124T044104Z.html",
+  "error_message": null
+}

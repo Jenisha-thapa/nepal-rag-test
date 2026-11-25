@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Claim Forms",
+  "source_url": "https://ssf.gov.np/list/claim-forms",
+  "document_type": "procedure",
+  "fetched_at": "2026-11-24T04:42:44.545431+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 116049,
+  "sha256": "7b994f82751adb1b1dc034d0946fa9102b9f820217db7347dc19a40eba45e174",
+  "saved_path": "data/raw/employment_labour/SSF-Claim-Forms__20261124T044244Z.html",
+  "error_message": null
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "health_social_welfare",
+  "source_name": "HIB sudurpashchim Province Offices",
+  "source_url": "https://hib.gov.np/pages/sudurpashchim-province/",
+  "document_type": "contact",
+  "fetched_at": "2026-11-24T04:44:06.575942+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 249719,
+  "sha256": "a52ed1cb5e5d5149ea2823720f0c6f0cc4c61f76072aa1013f8459f96b297b18",
+  "saved_path": "data/raw/health_social_welfare/HIB-sudurpashchim-Province-Offices__20261124T044407Z.html",
+  "error_message": null
+}

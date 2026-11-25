@@ -1,0 +1,16 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "Health Insurance Act 2074 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20260207111431id_/https://giwmscdnone.gov.np/media/pdf_upload/24.%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A5%8D%E0%A4%AF%20%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE%20%E0%A4%90%E0%A4%A8%2C%20%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AA_gfnjras.pdf",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T05:59:17.877667+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 657290,
+  "sha256": "54bca98939646df778e489d95fd49730ec87b8ae750a97b637f3584731fc8524",
+  "saved_path": "data/raw/health_social_welfare/Health-Insurance-Act-2074-Nepal-Law-Commission-archived-copy__20261124T055926Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

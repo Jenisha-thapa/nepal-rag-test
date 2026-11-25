@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "MoLCFAGA notice 424",
+  "source_url": "https://molcfaga.gov.np/content/424/the-land--twenty-first-amendment--rules--2083/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:42:34.164020+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 223162,
+  "sha256": "a3d435b38fe98002da75ae9c9238e49f5d4d9ac2dacec7a76ad9f800be6cbc77",
+  "saved_path": "data/raw/land_property/MoLCFAGA-notice-424__20261124T044235Z.html",
+  "error_message": null
+}

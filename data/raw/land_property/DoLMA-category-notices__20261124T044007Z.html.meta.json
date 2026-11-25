@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "DoLMA category/notices",
+  "source_url": "https://dolma.gov.np/category/notices",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:40:06.275213+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 102203,
+  "sha256": "624d19c62b0db2d63de1864218afbe5ec3e49ed35c2b670da050b486ffba4fdb",
+  "saved_path": "data/raw/land_property/DoLMA-category-notices__20261124T044007Z.html",
+  "error_message": null
+}

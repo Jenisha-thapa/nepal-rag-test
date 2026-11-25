@@ -1,0 +1,16 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "Act Relating to Rights of Persons with Disabilities 2074 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20260611012446id_/https://giwmscdnone.gov.np/media/app/public/275/posts/1720499642_26.pdf",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T06:00:02.816057+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 1047761,
+  "sha256": "ae58e343b666222f9e12c96cb9631c61530598ddd702eb6b1d76056dc764b1b0",
+  "saved_path": "data/raw/health_social_welfare/Act-Relating-to-Rights-of-Persons-with-Disabilities-2074-Nepal-Law-Commission-ar__20261124T060012Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

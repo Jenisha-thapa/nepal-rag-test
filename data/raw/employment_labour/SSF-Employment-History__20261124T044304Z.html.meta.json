@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Employment History",
+  "source_url": "https://ssf.gov.np/employment-history",
+  "document_type": "services",
+  "fetched_at": "2026-11-24T04:43:04.197032+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 82688,
+  "sha256": "106b2384d8007b1388f97be7e05682cc7a1c38c419c6bf14b98bac9e6ebde0f5",
+  "saved_path": "data/raw/employment_labour/SSF-Employment-History__20261124T044304Z.html",
+  "error_message": null
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "SSF — Retirement Claim Process",
+  "source_url": "https://ssf.gov.np/pages/withdraw-claim-process",
+  "document_type": "procedure",
+  "fetched_at": "2026-11-23T10:57:18.024726+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 88806,
+  "sha256": "0d20499259808344baa3d638b6907d046fdbe309af686c20593ae4699a7b1761",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\employment_labour\\SSF-Retirement-Claim-Process__20261123T105718Z.html",
+  "error_message": null
+}

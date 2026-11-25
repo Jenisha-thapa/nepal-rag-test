@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Home Loan Info",
+  "source_url": "https://ssf.gov.np/list/information-about-loan/information-on-home-loan",
+  "document_type": "services",
+  "fetched_at": "2026-11-24T04:45:04.839035+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 90999,
+  "sha256": "efbc34001a5d5878ef6c246016874b63feb8da1d88d7f82940f34178626e73de",
+  "saved_path": "data/raw/employment_labour/SSF-Home-Loan-Info__20261124T044505Z.html",
+  "error_message": null
+}

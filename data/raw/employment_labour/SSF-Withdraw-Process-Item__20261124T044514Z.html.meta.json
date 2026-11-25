@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Withdraw Process Item",
+  "source_url": "https://ssf.gov.np/list/service-method/withdraw-process",
+  "document_type": "procedure",
+  "fetched_at": "2026-11-24T04:45:12.879947+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 91019,
+  "sha256": "9f1c0b90783e57f0440ba5fabe65822add72ab29cacd2984fd9a8755b4b8a9dd",
+  "saved_path": "data/raw/employment_labour/SSF-Withdraw-Process-Item__20261124T044514Z.html",
+  "error_message": null
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "health_social_welfare",
+  "source_name": "HIB Acts and Rules",
+  "source_url": "https://hib.gov.np/category/acts-and-rules/",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T04:40:32.137113+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 177800,
+  "sha256": "ac529c2c8d990c8996f700d43963ce5164dc264f8620b4a2391f6fb66b14ad21",
+  "saved_path": "data/raw/health_social_welfare/HIB-Acts-and-Rules__20261124T044033Z.html",
+  "error_message": null
+}

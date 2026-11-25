@@ -1,0 +1,16 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "Identity & Civil Registration",
+  "source_name": "Passport Act 2076 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20210119002526id_/http://www.lawcommission.gov.np/np/wp-content/uploads/2021/01/%E0%A4%B0%E0%A4%BE%E0%A4%B9%E0%A4%A6%E0%A4%BE%E0%A4%A8%E0%A5%80-%E0%A4%90%E0%A4%A8-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AC.pdf",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T05:56:37.620820+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 657533,
+  "sha256": "f6b79382c28d6052610b82928f9a921e945ac77f1a6899b04360555f9d62e9f0",
+  "saved_path": "data/raw/identity_civil_registration/Passport-Act-2076-Nepal-Law-Commission-archived-copy__20261124T055645Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

@@ -1,0 +1,16 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "Identity & Civil Registration",
+  "source_name": "National Identity Card and Vital Registration Act 2076 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20260207100844id_/https://giwmscdnone.gov.np/media/pdf_upload/30.%E0%A4%B0%E0%A4%BE%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AF%20%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%9A%E0%A4%AF%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%20%E0%A4%A4%E0%A4%A5%E0%A4%BE%20%E0%A4%AA%E0%A4%9E%E0%A5%8D%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3%20%E0%A4%90%E0%A4%A8%2C%20%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AC_8fctidq.pdf",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T05:56:23.699878+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 979648,
+  "sha256": "bab4240a8cd7464c1ad3ca8e051ca88a2070b69816e6e67b901ba37dea672822",
+  "saved_path": "data/raw/identity_civil_registration/National-Identity-Card-and-Vital-Registration-Act-2076-Nepal-Law-Commission-arch__20261124T055627Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "DoLMA Website Relocation Notice",
+  "source_url": "https://dolma.gov.np/content/1/regarding-website-relocation-and-content-updating-/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:40:53.288493+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 122704,
+  "sha256": "0d6ecce997f3982c927441355e2d7269e6b547d9f45222faa1255d73fb71988b",
+  "saved_path": "data/raw/land_property/DoLMA-Website-Relocation-Notice__20261124T044054Z.html",
+  "error_message": null
+}

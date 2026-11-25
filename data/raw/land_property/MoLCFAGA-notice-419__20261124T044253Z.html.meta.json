@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "MoLCFAGA notice 419",
+  "source_url": "https://molcfaga.gov.np/content/419/necessary-information-on-providing-services-related-to/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:42:53.646127+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 224086,
+  "sha256": "efabc1f4861fa0c77f828656c7e26c1451161c7b4edf5f71702bdfdf3a5dfea6",
+  "saved_path": "data/raw/land_property/MoLCFAGA-notice-419__20261124T044253Z.html",
+  "error_message": null
+}

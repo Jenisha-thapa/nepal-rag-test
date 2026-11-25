@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "identity_civil_registration",
+  "source_name": "DoNIDCR Regulations",
+  "source_url": "https://donidcr.gov.np/category/common_regulations",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T04:39:43.020669+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 137335,
+  "sha256": "4753344c69f87cd155cb6a4095e77adcd06d9b6bfbab928e2376ba9b3b78b907",
+  "saved_path": "data/raw/identity_civil_registration/DoNIDCR-Regulations__20261124T043949Z.html",
+  "error_message": null
+}

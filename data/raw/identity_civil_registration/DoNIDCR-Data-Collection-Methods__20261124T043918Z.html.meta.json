@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "identity_civil_registration",
+  "source_name": "DoNIDCR Data Collection Methods",
+  "source_url": "https://donidcr.gov.np/pages/data-collection-methods-9",
+  "document_type": "procedure",
+  "fetched_at": "2026-11-24T04:39:18.023113+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 158065,
+  "sha256": "cba62c7dbaa0b82fd5d542d1440c7289cc2b915e598b3141be1abecccdd7c4b6",
+  "saved_path": "data/raw/identity_civil_registration/DoNIDCR-Data-Collection-Methods__20261124T043918Z.html",
+  "error_message": null
+}

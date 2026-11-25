@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "identity_civil_registration",
+  "source_name": "DoNIDCR Citizen Charter",
+  "source_url": "https://donidcr.gov.np/category/citizen-charter-2/",
+  "document_type": "charter",
+  "fetched_at": "2026-11-24T04:39:14.717207+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 123563,
+  "sha256": "443bdb73b93e173e5c72a8519c5ffeba406444a8519b7376a15b59ff48996e46",
+  "saved_path": "data/raw/identity_civil_registration/DoNIDCR-Citizen-Charter__20261124T043915Z.html",
+  "error_message": null
+}

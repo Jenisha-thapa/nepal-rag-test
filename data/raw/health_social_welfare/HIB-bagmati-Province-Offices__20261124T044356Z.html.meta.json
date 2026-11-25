@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "health_social_welfare",
+  "source_name": "HIB bagmati Province Offices",
+  "source_url": "https://hib.gov.np/pages/bagmati-province/",
+  "document_type": "contact",
+  "fetched_at": "2026-11-24T04:43:55.527159+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 319263,
+  "sha256": "940fb34ceca7082032bd9ce3f5d0ce23eefd830255cfb9df09ce78f8c0a0f266",
+  "saved_path": "data/raw/health_social_welfare/HIB-bagmati-Province-Offices__20261124T044356Z.html",
+  "error_message": null
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Foreign Sector Procedure",
+  "source_url": "https://ssf.gov.np/list/act_regulation/foreign-sector-social-security-scheme-operation-procedure-with-first-amendment-2079",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T04:45:17.152956+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 92072,
+  "sha256": "04f3a71d4f7dffd1744703b46f6c53138aabac9253691a74cb6c3aafc38c3e33",
+  "saved_path": "data/raw/employment_labour/SSF-Foreign-Sector-Procedure__20261124T044517Z.html",
+  "error_message": null
+}

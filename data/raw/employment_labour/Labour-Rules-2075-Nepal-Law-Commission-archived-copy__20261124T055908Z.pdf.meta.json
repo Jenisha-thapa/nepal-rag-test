@@ -1,0 +1,16 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "Labour Rules 2075 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20240703201630id_/https://www.lawcommission.gov.np/np/wp-content/uploads/2021/01/%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A4%AE-%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%E0%A4%BE%E0%A4%B5%E0%A4%B2%E0%A5%80-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AB.pdf",
+  "document_type": "rules",
+  "fetched_at": "2026-11-24T05:58:59.306771+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 1767909,
+  "sha256": "0ac4c623b2a917b16632d9739cfbaac466577ec435a2f70db12af8d7943de512",
+  "saved_path": "data/raw/employment_labour/Labour-Rules-2075-Nepal-Law-Commission-archived-copy__20261124T055908Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

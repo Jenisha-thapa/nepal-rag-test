@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "DoNIDCR — Social Security Allowance FAQs",
+  "source_url": "https://donidcr.gov.np/pages/mostly-asked-questions--social-security-4/",
+  "document_type": "faq",
+  "fetched_at": "2026-11-19T16:35:33.323148+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 196800,
+  "sha256": "e80549c407ada3ce7171256e9d27597c382925ba414a0ab545efe7711b6bf9e7",
+  "saved_path": "data\\raw\\health_social_welfare\\DoNIDCR-Social-Security-Allowance-FAQs__20261119T163534Z.html",
+  "error_message": null
+}

@@ -1,0 +1,16 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "Land & Property Services",
+  "source_name": "Land Survey and Measurement Act 2019 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20210119091912id_/lawcommission.gov.np/np/wp-content/uploads/2021/01/जग्गा-नाप-जाँच-ऐन-२०१९.pdf",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T05:57:31.525330+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 882192,
+  "sha256": "a4ca1eac385c536f749e1ed156b5dc40adb92592b2991ef22148a619b18231e9",
+  "saved_path": "data/raw/land_property/Land-Survey-and-Measurement-Act-2019-Nepal-Law-Commission-archived-copy__20261124T055740Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

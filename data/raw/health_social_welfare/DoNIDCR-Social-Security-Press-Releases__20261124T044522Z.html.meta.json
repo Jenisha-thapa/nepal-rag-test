@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "health_social_welfare",
+  "source_name": "DoNIDCR Social Security Press Releases",
+  "source_url": "https://donidcr.gov.np/category/press-release/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:45:20.860995+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 130057,
+  "sha256": "8f53c3f6b90ff84c86501f36798ff20f0bdb921363322e13ccb4473afd3c89f2",
+  "saved_path": "data/raw/health_social_welfare/DoNIDCR-Social-Security-Press-Releases__20261124T044522Z.html",
+  "error_message": null
+}

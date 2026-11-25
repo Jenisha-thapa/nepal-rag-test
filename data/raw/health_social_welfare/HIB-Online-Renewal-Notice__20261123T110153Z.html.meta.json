@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "HIB — Online Renewal Notice",
+  "source_url": "https://hib.gov.np/content/243/online-renewal-notice-all-public/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-23T11:01:40.858570+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 194124,
+  "sha256": "0217ffa6df39db0f12e1c3f2515712803f6d0a460caff95f09c14b623987e245",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\health_social_welfare\\HIB-Online-Renewal-Notice__20261123T110153Z.html",
+  "error_message": null
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "identity_civil_registration",
+  "source_name": "DoNIDCR NID Notices",
+  "source_url": "https://donidcr.gov.np/category/ra-identity-card-information-and-news/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:39:54.499343+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 142271,
+  "sha256": "e76bb1e85c17c10bd4935d46adc0db9e49cad5cbf8409b2a6e2b0cf3932b902a",
+  "saved_path": "data/raw/identity_civil_registration/DoNIDCR-NID-Notices__20261124T043954Z.html",
+  "error_message": null
+}

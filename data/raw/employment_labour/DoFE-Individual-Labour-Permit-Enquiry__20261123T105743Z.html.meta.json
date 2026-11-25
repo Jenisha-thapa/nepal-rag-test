@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "DoFE — Individual Labour Permit Enquiry",
+  "source_url": "https://dofe.gov.np/carousel-detail/10/",
+  "document_type": "contact",
+  "fetched_at": "2026-11-23T10:57:42.182218+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 205656,
+  "sha256": "dfd5f6eacc64f2362f58e807eb33026832d88485fc2c5dbc303108251dc9cd9e",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\employment_labour\\DoFE-Individual-Labour-Permit-Enquiry__20261123T105743Z.html",
+  "error_message": null
+}

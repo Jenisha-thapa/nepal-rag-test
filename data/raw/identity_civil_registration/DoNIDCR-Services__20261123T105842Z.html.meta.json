@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "Identity & Civil Registration",
+  "source_name": "DoNIDCR — Services",
+  "source_url": "https://donidcr.gov.np/services-list/",
+  "document_type": "services",
+  "fetched_at": "2026-11-23T10:58:31.722577+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 119521,
+  "sha256": "383140a45b2f8d15eff4617de440757d6a5385ea568021b12bf0a078efd78726",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\identity_civil_registration\\DoNIDCR-Services__20261123T105842Z.html",
+  "error_message": null
+}

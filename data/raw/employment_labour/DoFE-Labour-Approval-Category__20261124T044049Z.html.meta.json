@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "DoFE Labour Approval Category",
+  "source_url": "https://dofe.gov.np/category/labour-approval",
+  "document_type": "procedure",
+  "fetched_at": "2026-11-24T04:40:46.124542+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 197777,
+  "sha256": "90efd46fe537cffda04c3782a573f98200373f475638986090bed5c27882a16b",
+  "saved_path": "data/raw/employment_labour/DoFE-Labour-Approval-Category__20261124T044049Z.html",
+  "error_message": null
+}

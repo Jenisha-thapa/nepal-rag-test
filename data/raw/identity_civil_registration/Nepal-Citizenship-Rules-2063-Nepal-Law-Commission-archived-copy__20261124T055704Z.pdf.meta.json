@@ -1,0 +1,16 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "Identity & Civil Registration",
+  "source_name": "Nepal Citizenship Rules 2063 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20221117140801id_/https://lawcommission.gov.np/np/wp-content/uploads/2021/10/%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A4%BE%E0%A4%B2-%E0%A4%A8%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%A4%E0%A4%BE-%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%E0%A4%BE%E0%A4%B5%E0%A4%B2%E0%A5%80-%E0%A5%A8%E0%A5%A6%E0%A5%AC%E0%A5%A9.pdf",
+  "document_type": "rules",
+  "fetched_at": "2026-11-24T05:56:55.306529+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 1585004,
+  "sha256": "201c0296b5a6d4ff78353069c4c05dbec56a79641f95b52328e7ec29148bfad8",
+  "saved_path": "data/raw/identity_civil_registration/Nepal-Citizenship-Rules-2063-Nepal-Law-Commission-archived-copy__20261124T055704Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

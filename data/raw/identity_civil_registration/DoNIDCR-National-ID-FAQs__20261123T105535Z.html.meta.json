@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "Identity & Civil Registration",
+  "source_name": "DoNIDCR — National ID FAQs",
+  "source_url": "https://donidcr.gov.np/pages/abboyed-asked-questions--rational-identity-10",
+  "document_type": "faq",
+  "fetched_at": "2026-11-23T10:55:28.381090+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 197131,
+  "sha256": "66aa58304fdcb57f920cf4b57ab5931f6d18723dea3442f6098631a62ca2b6a3",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\identity_civil_registration\\DoNIDCR-National-ID-FAQs__20261123T105535Z.html",
+  "error_message": null
+}

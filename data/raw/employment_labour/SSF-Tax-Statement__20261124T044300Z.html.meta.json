@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Tax Statement",
+  "source_url": "https://ssf.gov.np/tax-statement",
+  "document_type": "services",
+  "fetched_at": "2026-11-24T04:43:00.519670+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 82673,
+  "sha256": "2fdbb6df950df48e8828afb04a5733e2a7e098afdf14d9c190a6a52b50069437",
+  "saved_path": "data/raw/employment_labour/SSF-Tax-Statement__20261124T044300Z.html",
+  "error_message": null
+}

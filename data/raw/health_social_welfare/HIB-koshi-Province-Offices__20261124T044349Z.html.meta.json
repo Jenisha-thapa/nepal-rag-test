@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "health_social_welfare",
+  "source_name": "HIB koshi Province Offices",
+  "source_url": "https://hib.gov.np/pages/koshi-province/",
+  "document_type": "contact",
+  "fetched_at": "2026-11-24T04:43:48.550965+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 279693,
+  "sha256": "797a563f1ae54409c093f172bcbd74f34369c84d118c81a04ae12d9d4a65e370",
+  "saved_path": "data/raw/health_social_welfare/HIB-koshi-Province-Offices__20261124T044349Z.html",
+  "error_message": null
+}

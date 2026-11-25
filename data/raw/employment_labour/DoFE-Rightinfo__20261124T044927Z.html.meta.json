@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "DoFE Rightinfo",
+  "source_url": "https://dofe.gov.np/category/rightinfo",
+  "document_type": "about",
+  "fetched_at": "2026-11-24T04:49:24.604139+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 196028,
+  "sha256": "b0bcc3d2fefa2fd3356050dcc4ed91c1f016982c976f74b332dca43094e1e116",
+  "saved_path": "data/raw/employment_labour/DoFE-Rightinfo__20261124T044927Z.html",
+  "error_message": null
+}

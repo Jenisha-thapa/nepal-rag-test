@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Notice to Contributor",
+  "source_url": "https://ssf.gov.np/list/Information/kashhaka-yagathanakarataharalii-sacana",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:45:30.063849+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 89150,
+  "sha256": "6d9e05938e6be153a4347f74f9f1a4f3ebe66bb89de520a2a77941afd3836a17",
+  "saved_path": "data/raw/employment_labour/SSF-Notice-to-Contributor__20261124T044531Z.html",
+  "error_message": null
+}

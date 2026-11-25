@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Scheme Operation Procedure PDF",
+  "source_url": "https://ssf.gov.np/images/news/17406520344566_Social%20Security%20Operation%20Procedure%202075%20with%205th%20ammendment.pdf",
+  "document_type": "pdf",
+  "fetched_at": "2026-11-24T04:46:25.625089+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 1830227,
+  "sha256": "861063f57916d1c614d78cc83374e74546610d641caa40a533a71cef2511fda1",
+  "saved_path": "data/raw/employment_labour/SSF-Scheme-Operation-Procedure-PDF__20261124T044625Z.pdf",
+  "error_message": null
+}

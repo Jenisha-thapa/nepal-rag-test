@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "health_social_welfare",
+  "source_name": "HIB Online Enrollment Press Release",
+  "source_url": "https://hib.gov.np/content/352/press-release-regarding-the-launch-of-online/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:40:41.100446+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 195607,
+  "sha256": "3e0ac0a91758a108e4b06899e2935341f53e3542f433e014999fcc44290e08c3",
+  "saved_path": "data/raw/health_social_welfare/HIB-Online-Enrollment-Press-Release__20261124T044042Z.html",
+  "error_message": null
+}

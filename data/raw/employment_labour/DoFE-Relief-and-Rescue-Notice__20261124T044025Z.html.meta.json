@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "DoFE Relief and Rescue Notice",
+  "source_url": "https://dofe.gov.np/content/188/information-regarding-relief-and-rescue/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:40:25.662128+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 207972,
+  "sha256": "1d305168f1935d182d2dcc268684e54e133188a8428144d05f49ce23c194e523",
+  "saved_path": "data/raw/employment_labour/DoFE-Relief-and-Rescue-Notice__20261124T044025Z.html",
+  "error_message": null
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "molcfaga.gov.np/pages/the-bodies-under-1192610527",
+  "source_url": "https://molcfaga.gov.np/pages/the-bodies-under-1192610527/",
+  "document_type": "about",
+  "fetched_at": "2026-11-24T04:45:10.986195+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 230025,
+  "sha256": "0d316a4b846b75cfd8ed346449c2523528292ba58f52f5ea8754accddf485e84",
+  "saved_path": "data/raw/land_property/molcfaga.gov.np-pages-the-bodies-under-1192610527__20261124T044512Z.html",
+  "error_message": null
+}

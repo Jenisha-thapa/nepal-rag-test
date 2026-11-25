@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "DoFE — Individual Labour Permit Documents",
+  "source_url": "https://dofe.gov.np/carousel-detail/14/",
+  "document_type": "procedure",
+  "fetched_at": "2026-11-23T10:57:03.165296+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 205639,
+  "sha256": "e3f97e77d061040f0b5af311b442edb8488203ec05995ae11d8f4ba538a98c5e",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\employment_labour\\DoFE-Individual-Labour-Permit-Documents__20261123T105718Z.html",
+  "error_message": null
+}

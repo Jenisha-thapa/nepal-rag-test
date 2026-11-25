@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "Identity & Civil Registration",
+  "source_name": "DoNIDCR — Online Personal Event Registration at Ward Offices",
+  "source_url": "https://donidcr.gov.np/pages/ward-office-registering-personal-events-from-the-7",
+  "document_type": "procedure",
+  "fetched_at": "2026-11-23T10:57:25.640325+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 151097,
+  "sha256": "32d2eafa4b85150a7affb8e91709ca031e735d421d205fa066992805f55d66ca",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\identity_civil_registration\\DoNIDCR-Online-Personal-Event-Registration-at-Ward-Offices__20261123T105742Z.html",
+  "error_message": null
+}

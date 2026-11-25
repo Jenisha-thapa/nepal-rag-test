@@ -1,0 +1,16 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "Identity & Civil Registration",
+  "source_name": "DoNIDCR About Intro",
+  "source_url": "https://donidcr.gov.np/pages/introduction-1/",
+  "document_type": "about",
+  "fetched_at": "2026-11-24T05:56:27.495312+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 174578,
+  "sha256": "5aacedb5a0febc2c54634db041e3f603c2e9898158a442a789deec95655a9b9a",
+  "saved_path": "data/raw/identity_civil_registration/DoNIDCR-About-Intro__20261124T055634Z.html",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

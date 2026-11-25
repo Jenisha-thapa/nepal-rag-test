@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "Identity & Civil Registration",
+  "source_name": "DoNIDCR — National ID Introduction",
+  "source_url": "https://donidcr.gov.np/pages/introduction--national-identity-8",
+  "document_type": "about",
+  "fetched_at": "2026-11-23T10:55:36.983600+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 161214,
+  "sha256": "4c8bc9d98d9d0792f652637e64c39601f932e05b34f3287da790ffd9b0ff0224",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\identity_civil_registration\\DoNIDCR-National-ID-Introduction__20261123T105553Z.html",
+  "error_message": null
+}

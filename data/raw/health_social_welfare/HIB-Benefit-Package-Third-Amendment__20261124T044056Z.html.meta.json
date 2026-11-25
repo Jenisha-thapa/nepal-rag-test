@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "health_social_welfare",
+  "source_name": "HIB Benefit Package Third Amendment",
+  "source_url": "https://hib.gov.np/content/317/health-insurance-board-benefit-scheme--third-amendment-/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:40:55.083183+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 194301,
+  "sha256": "0cfebb4ea5dba692c21355b7e23004e5ce73f9adbe0943e39fb6dde8a8031b22",
+  "saved_path": "data/raw/health_social_welfare/HIB-Benefit-Package-Third-Amendment__20261124T044056Z.html",
+  "error_message": null
+}

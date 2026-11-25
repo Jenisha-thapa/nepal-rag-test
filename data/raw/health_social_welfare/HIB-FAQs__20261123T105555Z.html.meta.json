@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "HIB — FAQs",
+  "source_url": "https://hib.gov.np/faq/",
+  "document_type": "faq",
+  "fetched_at": "2026-11-23T10:55:54.434348+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 222629,
+  "sha256": "3bfaf07fbc12824a5a8f153856be4882c09ccf959de03ab2ceb3522f9d68edc8",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\health_social_welfare\\HIB-FAQs__20261123T105555Z.html",
+  "error_message": null
+}

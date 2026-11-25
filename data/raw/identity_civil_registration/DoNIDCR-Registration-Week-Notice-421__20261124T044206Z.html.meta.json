@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "identity_civil_registration",
+  "source_name": "DoNIDCR Registration Week Notice 421",
+  "source_url": "https://donidcr.gov.np/content/421/personal-event-registration-week-2083/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:42:02.836331+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 144700,
+  "sha256": "7b51f48b1a26d6e997c697afdcba167183d9b2c9804041c131e1f3695b14f401",
+  "saved_path": "data/raw/identity_civil_registration/DoNIDCR-Registration-Week-Notice-421__20261124T044206Z.html",
+  "error_message": null
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "Land & Property Services",
+  "source_name": "Department of Land Management and Archive — Official Portal",
+  "source_url": "https://dolma.gov.np/",
+  "document_type": "portal",
+  "fetched_at": "2026-11-23T10:55:36.000880+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 174321,
+  "sha256": "09a16873315efcf91d6a4853ec02213e498fb91ea186ccfc4e8220d954546035",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\land_property\\Department-of-Land-Management-and-Archive-Official-Portal__20261123T105536Z.html",
+  "error_message": null
+}

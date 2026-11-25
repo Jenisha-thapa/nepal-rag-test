@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Informal Sector Procedure PDF",
+  "source_url": "https://ssf.gov.np/images/news/17169880149914_Informal%20and%20Self%20Employed%20Procedure%20with%20First%20Amendment.pdf",
+  "document_type": "pdf",
+  "fetched_at": "2026-11-24T04:46:24.277036+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 1198587,
+  "sha256": "c1aa1aaede090b3b64c2308815174b67d0d9b33ea398375ee5ffc52b47aae153",
+  "saved_path": "data/raw/employment_labour/SSF-Informal-Sector-Procedure-PDF__20261124T044624Z.pdf",
+  "error_message": null
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "identity_civil_registration",
+  "source_name": "DoNIDCR Registration Notices",
+  "source_url": "https://donidcr.gov.np/category/registration-notices-and-news/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:39:52.552452+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 140136,
+  "sha256": "846fddebcdbc470619b7082b2b29524231b5ecc156fa7748e81d27d33e2c5280",
+  "saved_path": "data/raw/identity_civil_registration/DoNIDCR-Registration-Notices__20261124T043953Z.html",
+  "error_message": null
+}

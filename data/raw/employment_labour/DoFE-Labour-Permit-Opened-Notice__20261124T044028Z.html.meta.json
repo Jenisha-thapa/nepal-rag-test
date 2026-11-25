@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "DoFE Labour Permit Opened Notice",
+  "source_url": "https://dofe.gov.np/content/208/regarding-opening-of-labor-permit/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:40:27.732094+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 207901,
+  "sha256": "afe03276b676f0f0d05218bf096fcc15f5d0fb753af4a3eeef80792d3f7b891b",
+  "saved_path": "data/raw/employment_labour/DoFE-Labour-Permit-Opened-Notice__20261124T044028Z.html",
+  "error_message": null
+}

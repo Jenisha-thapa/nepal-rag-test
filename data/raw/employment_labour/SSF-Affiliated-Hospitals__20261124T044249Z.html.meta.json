@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Affiliated Hospitals",
+  "source_url": "https://ssf.gov.np/affiliated-hospitals",
+  "document_type": "services",
+  "fetched_at": "2026-11-24T04:42:49.335249+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 102130,
+  "sha256": "b72f0bb514b11c4762d80b79f0e3fd56f6b34b132e090f090381c6f63b747814",
+  "saved_path": "data/raw/employment_labour/SSF-Affiliated-Hospitals__20261124T044249Z.html",
+  "error_message": null
+}

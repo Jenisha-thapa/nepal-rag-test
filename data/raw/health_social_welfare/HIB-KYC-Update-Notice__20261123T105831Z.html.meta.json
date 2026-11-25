@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "HIB — KYC Update Notice",
+  "source_url": "https://hib.gov.np/content/365/notice-regarding-mandatory-kyc-update-for-old/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-23T10:58:19.303094+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 194792,
+  "sha256": "1346a4a48680db8003dac78ed38fb18008ee180c506bbe98b5c2ba5a32f98249",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\health_social_welfare\\HIB-KYC-Update-Notice__20261123T105831Z.html",
+  "error_message": null
+}

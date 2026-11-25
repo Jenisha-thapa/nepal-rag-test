@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "identity_civil_registration",
+  "source_name": "DoNIDCR Birth Cert Correction Notice",
+  "source_url": "https://donidcr.gov.np/content/357/regarding-correction-of-birth-registration-certificate-details/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:41:51.910284+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 144099,
+  "sha256": "a8d2cae2ce00393a06caeb813c373d20de73eb6a6e9db3ea2fb4414877dd40b0",
+  "saved_path": "data/raw/identity_civil_registration/DoNIDCR-Birth-Cert-Correction-Notice__20261124T044152Z.html",
+  "error_message": null
+}

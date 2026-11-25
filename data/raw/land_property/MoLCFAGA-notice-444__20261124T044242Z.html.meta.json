@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "MoLCFAGA notice 444",
+  "source_url": "https://molcfaga.gov.np/content/444/public-notice-regarding-land-bank-operations/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:42:41.703233+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 222882,
+  "sha256": "60c9fd1a732dc31ed06f16dea322c1f83a7fc29b41f315c6e0a2198ecde175fb",
+  "saved_path": "data/raw/land_property/MoLCFAGA-notice-444__20261124T044242Z.html",
+  "error_message": null
+}

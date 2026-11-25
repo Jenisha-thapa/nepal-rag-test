@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "health_social_welfare",
+  "source_name": "DoNIDCR Beneficiary Registration and Renewal Notice 445",
+  "source_url": "https://donidcr.gov.np/content/445/regarding-registration-and-renewal-of-beneficiaries-eligible/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:45:14.943033+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 144112,
+  "sha256": "e3c2c15a25920c74420870807916b78c7b57e875682c40bb9433311a63ae6b03",
+  "saved_path": "data/raw/health_social_welfare/DoNIDCR-Beneficiary-Registration-and-Renewal-Notice-445__20261124T044517Z.html",
+  "error_message": null
+}

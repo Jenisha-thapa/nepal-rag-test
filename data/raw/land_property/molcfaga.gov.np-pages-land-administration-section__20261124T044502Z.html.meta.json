@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "molcfaga.gov.np/pages/land-administration-section",
+  "source_url": "https://molcfaga.gov.np/pages/land-administration-section",
+  "document_type": "about",
+  "fetched_at": "2026-11-24T04:44:59.589531+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 226796,
+  "sha256": "c2298f4523730e19f0f7b31969f6908b69bb2ba5ff651507f67cdb2fd4cc9c71",
+  "saved_path": "data/raw/land_property/molcfaga.gov.np-pages-land-administration-section__20261124T044502Z.html",
+  "error_message": null
+}

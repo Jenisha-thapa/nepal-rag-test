@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "DoFE — Online Labour Permit Form Conditions",
+  "source_url": "https://dofe.gov.np/content/149/conditions-to-be-fulfilled-while-filling-the/",
+  "document_type": "procedure",
+  "fetched_at": "2026-11-23T10:58:07.232758+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 208229,
+  "sha256": "2db47c2278a436dc13c8d643306b6ac169040bbebfb376ff46cacefbf61c1ff5",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\employment_labour\\DoFE-Online-Labour-Permit-Form-Conditions__20261123T105807Z.html",
+  "error_message": null
+}

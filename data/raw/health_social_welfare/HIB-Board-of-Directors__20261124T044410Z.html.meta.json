@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "health_social_welfare",
+  "source_name": "HIB Board of Directors",
+  "source_url": "https://hib.gov.np/pages/board-of-director/",
+  "document_type": "contact",
+  "fetched_at": "2026-11-24T04:44:09.236588+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 213872,
+  "sha256": "2d01a638aeff55f68a6258782695b9ea4dcaba5af2a0217d15785fb4ea615078",
+  "saved_path": "data/raw/health_social_welfare/HIB-Board-of-Directors__20261124T044410Z.html",
+  "error_message": null
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "DoFE — Contact Numbers",
+  "source_url": "https://dofe.gov.np/carousel-detail/15/",
+  "document_type": "contact",
+  "fetched_at": "2026-11-23T11:01:22.454218+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 205545,
+  "sha256": "bf2b67616b0561948899afc359f3dde871e6462ddc3e7a4a406cd1a5790c4875",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\employment_labour\\DoFE-Contact-Numbers__20261123T110123Z.html",
+  "error_message": null
+}

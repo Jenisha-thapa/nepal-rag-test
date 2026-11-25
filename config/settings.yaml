@@ -1,0 +1,54 @@
+﻿# Nepal Sewa AI — tunable settings. Paths are relative to the repo root.
+# LLM settings can be overridden from .env (LLM_PROVIDER, LLM_MODEL, LLM_FALLBACK_*).
+
+paths:
+  raw_dir: data/raw              # fetched HTML/PDF + .meta.json sidecars
+  processed_dir: data/processed  # cleaned docs + all_chunks.json
+  index_dir: data/index          # ChromaDB vector store lives in data/index/chroma
+  conversations_db: data/conversations.db   # web chat history (SQLite, created on first use, not committed)
+
+processing:
+  min_chunk_chars: 50            # skip documents with less text than this
+
+chunking:
+  # manual = hand-written chunks in data/chunks/<domain>.yaml (default)
+  # auto   = structure-aware chunking of the crawled pages (for comparison)
+  knowledge_base: manual
+  # Measured with the embedding model's own tokenizer. Keep max_chunk_tokens plus the
+  # "title › section" header below retrieval.embedding_max_tokens, or the embedder truncates.
+  max_chunk_tokens: 450
+  min_chunk_tokens: 120        # smaller sections (contact cards, notice titles) get merged
+
+retrieval:
+  mode: hybrid                   # bm25 | dense | hybrid
+  embedding_model: BAAI/bge-m3
+  embedding_max_tokens: 512      # model input limit used for embedding (bge-m3 supports up to 8192)
+  query_prefix: ""               # e5 models need "query: " / "passage: "; bge-m3 needs none
+  passage_prefix: ""
+  top_k: 8                       # passages given to the LLM (small chunks -> pass more of them)
+  hybrid:
+    # Reciprocal Rank Fusion of BM25 and dense rankings. Benchmarked on data/eval/questions.yaml:
+    # with clean hand-written chunks BGE-M3 does most of the work; a light BM25 weight keeps
+    # exact-term matches (numbers, names, "FEIMS") as a tie-breaker. See README → Evaluation.
+    fusion: rrf                  # rrf | weighted
+    rrf_k: 60
+    bm25_weight: 0.1
+    dense_weight: 0.9
+  bm25:
+    k1: 1.5
+    b: 0.75
+  chromadb:
+    collection_name: nepal_gov_services
+    persist_dir: data/index/chroma
+
+generation:
+  # Chain: provider -> fallback_provider -> extractive answer (no LLM)
+  provider: ollama               # ollama | gemini | openai | openrouter | anthropic
+  model: llama3
+  fallback_provider: gemini      # used when the primary is unavailable; "" to disable
+  fallback_model: gemini-3.5-flash-lite
+  temperature: 0.1
+  max_tokens: 1024
+  system_language: nepali
+  refusal:
+    message: "माफ गर्नुहोस्, मसँग यस प्रश्नको उत्तर दिने पर्याप्त प्रमाण छैन। कृपया सम्बन्धित निकायमा सोध्नुहोस्।"

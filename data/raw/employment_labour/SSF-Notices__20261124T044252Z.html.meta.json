@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Notices",
+  "source_url": "https://ssf.gov.np/list/Information",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:42:52.282268+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 152011,
+  "sha256": "b044530f246f11fdb3dedf52b2012b288a0b0b40b0e11debf4c290e9902b70fa",
+  "saved_path": "data/raw/employment_labour/SSF-Notices__20261124T044252Z.html",
+  "error_message": null
+}

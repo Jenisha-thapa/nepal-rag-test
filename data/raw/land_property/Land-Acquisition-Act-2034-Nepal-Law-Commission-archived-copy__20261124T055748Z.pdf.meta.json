@@ -1,0 +1,16 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "Land & Property Services",
+  "source_name": "Land Acquisition Act 2034 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20240629091831id_/lawcommission.gov.np/np/wp-content/uploads/2021/01/जग्गा-प्राप्ति-ऐन-२०३४.pdf",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T05:57:40.247056+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 962841,
+  "sha256": "0ce42e4ae3bdf1e118140986d40ce897127e5c948cffe7327fd761588c75ea85",
+  "saved_path": "data/raw/land_property/Land-Acquisition-Act-2034-Nepal-Law-Commission-archived-copy__20261124T055748Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

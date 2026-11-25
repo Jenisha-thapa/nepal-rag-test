@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "health_social_welfare",
+  "source_name": "HIB Digital Collective Enrollment Press Release",
+  "source_url": "https://hib.gov.np/content/374/press-release-regarding-the-launch-of-digital/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:40:45.505279+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 195997,
+  "sha256": "a7b2f13d0dc40cea7b9a06004b812178930cd8d16d7ad77bbc3b618bc2932d93",
+  "saved_path": "data/raw/health_social_welfare/HIB-Digital-Collective-Enrollment-Press-Release__20261124T044046Z.html",
+  "error_message": null
+}

@@ -1,0 +1,16 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "Public Health Service Act 2075 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20260207105948id_/https://giwmscdnone.gov.np/media/app/public/275/posts/1720419399_22.pdf",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T05:59:34.838001+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 680965,
+  "sha256": "66eded795a1688311a312c56efcf68f3e053d4e7a65918933bbe682d2c754a7c",
+  "saved_path": "data/raw/health_social_welfare/Public-Health-Service-Act-2075-Nepal-Law-Commission-archived-copy__20261124T055943Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

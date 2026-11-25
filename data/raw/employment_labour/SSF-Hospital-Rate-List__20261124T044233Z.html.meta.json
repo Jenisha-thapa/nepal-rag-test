@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Hospital Rate List",
+  "source_url": "https://ssf.gov.np/pages/hospital-rate-list",
+  "document_type": "services",
+  "fetched_at": "2026-11-24T04:42:32.250899+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 88803,
+  "sha256": "42e65ed228120138b51eace81b2a99cc9cb4f6f3683a92e1e85d5b21c8c5de7c",
+  "saved_path": "data/raw/employment_labour/SSF-Hospital-Rate-List__20261124T044233Z.html",
+  "error_message": null
+}

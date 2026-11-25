@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "DoFE Update Details Notice",
+  "source_url": "https://dofe.gov.np/content/165/notice-regarding-updating-details/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:40:29.784316+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 207933,
+  "sha256": "0b84faf2a1726184d4e72076a7ba335388964618a12554cdf3e862507bf30d16",
+  "saved_path": "data/raw/employment_labour/DoFE-Update-Details-Notice__20261124T044030Z.html",
+  "error_message": null
+}

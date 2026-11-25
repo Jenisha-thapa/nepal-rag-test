@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Hospital Service Locations",
+  "source_url": "https://ssf.gov.np/pages/hospital-service-locations",
+  "document_type": "services",
+  "fetched_at": "2026-11-24T04:42:28.678645+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 88964,
+  "sha256": "5fd6c7107c559a9857e40aaebca62a015cc900096d32646627e0eb7cd315771d",
+  "saved_path": "data/raw/employment_labour/SSF-Hospital-Service-Locations__20261124T044228Z.html",
+  "error_message": null
+}

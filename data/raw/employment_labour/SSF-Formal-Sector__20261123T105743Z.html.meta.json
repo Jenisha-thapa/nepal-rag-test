@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "SSF — Formal Sector",
+  "source_url": "https://ssf.gov.np/services/the-amount-to-be-deposited-in-the-fund-to-be-included-in-the-scheme",
+  "document_type": "scheme",
+  "fetched_at": "2026-11-23T10:57:43.580076+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 87215,
+  "sha256": "0e7b21de6cf58e3277b38c86f516562019b94a8629147ef23ec51dfb34960e66",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\employment_labour\\SSF-Formal-Sector__20261123T105743Z.html",
+  "error_message": null
+}

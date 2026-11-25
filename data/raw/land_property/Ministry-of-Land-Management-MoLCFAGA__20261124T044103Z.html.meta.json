@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "Ministry of Land Management (MoLCFAGA)",
+  "source_url": "https://molcfaga.gov.np/",
+  "document_type": "portal",
+  "fetched_at": "2026-11-24T04:41:03.296394+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 321388,
+  "sha256": "3c896eade118d056da5e7af55e89440de34492716dc6770a9d7a42d3be109e7d",
+  "saved_path": "data/raw/land_property/Ministry-of-Land-Management-MoLCFAGA__20261124T044103Z.html",
+  "error_message": null
+}

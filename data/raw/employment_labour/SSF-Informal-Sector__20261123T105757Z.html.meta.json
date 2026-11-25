@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "SSF — Informal Sector",
+  "source_url": "https://ssf.gov.np/services/what-documents-are-required-to-be-listed",
+  "document_type": "scheme",
+  "fetched_at": "2026-11-23T10:57:57.080421+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 86699,
+  "sha256": "466ac5495c66e630d98117627ac3068f4f2367013d965f2284f8866151babecf",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\employment_labour\\SSF-Informal-Sector__20261123T105757Z.html",
+  "error_message": null
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "Identity & Civil Registration",
+  "source_name": "DoNIDCR — National ID Online Application Info",
+  "source_url": "https://donidcr.gov.np/content/293/information-on-national-identity-card-online-application/",
+  "document_type": "procedure",
+  "fetched_at": "2026-11-19T16:35:26.801943+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 144084,
+  "sha256": "c89eed2673e979eb2ddca7c4045c51c3eba7d9fdd7a3f236620fe25b0de46357",
+  "saved_path": "data\\raw\\identity_civil_registration\\DoNIDCR-National-ID-Online-Application-Info__20261119T163527Z.html",
+  "error_message": null
+}

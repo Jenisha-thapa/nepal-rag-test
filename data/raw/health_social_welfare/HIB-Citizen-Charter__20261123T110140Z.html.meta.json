@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "HIB — Citizen Charter",
+  "source_url": "https://hib.gov.np/citizen-charter/",
+  "document_type": "charter",
+  "fetched_at": "2026-11-23T11:01:23.027393+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 168333,
+  "sha256": "7547a52e6f8a7cb1b78b34209002daf4900a31310ea1b68f2839d0e64707195c",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\health_social_welfare\\HIB-Citizen-Charter__20261123T110140Z.html",
+  "error_message": null
+}

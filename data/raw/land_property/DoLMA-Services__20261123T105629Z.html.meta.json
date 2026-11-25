@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "Land & Property Services",
+  "source_name": "DoLMA — Services",
+  "source_url": "https://dolma.gov.np/services-list/",
+  "document_type": "services",
+  "fetched_at": "2026-11-23T10:56:19.003625+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 97573,
+  "sha256": "bf4906d83e4b24209790836ec90cb32396ee8b39dee48c635ebbf1d1b437ad90",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\land_property\\DoLMA-Services__20261123T105629Z.html",
+  "error_message": null
+}

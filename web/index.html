@@ -1,0 +1,784 @@
+<!doctype html>
+<html lang="ne">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>नेपाल सेवा — सार्वजनिक सेवा सूचना डेस्क</title>
+<style>
+  :root {
+    --navy: #1f3a5f;
+    --navy-dark: #162b47;
+    --link: #1a4f8b;
+    --text: #1f2328;
+    --muted: #5d6670;
+    --line: #cfd5dc;
+    --line-soft: #e3e7eb;
+    --page: #eef0f3;
+    --panel: #ffffff;
+    --you: #f3f6fa;
+    --cite-bg: #eef3fa;
+    --cite-line: #c5d3e6;
+    --warn-bg: #fff8e5;
+    --warn-line: #e6cf8a;
+    --danger: #a12b2b;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; overflow: hidden; }
+  body {
+    height: 100vh; height: 100dvh; margin: 0; background: var(--page); color: var(--text);
+    font: 15px/1.6 "Segoe UI", Tahoma, "Noto Sans Devanagari", "Nirmala UI", "Mangal", Arial, sans-serif;
+    display: flex; flex-direction: column;
+  }
+  a { color: var(--link); }
+  button { font: inherit; cursor: pointer; }
+  .en { color: var(--muted); font-size: .88em; }
+  .linkbtn { background: none; border: 0; padding: 0; color: var(--link); text-decoration: underline; font-size: 13px; }
+  .linkbtn.danger { color: var(--danger); }
+  .btn { border: 1px solid var(--navy); background: var(--navy); color: #fff; padding: 6px 14px; border-radius: 3px; }
+  .btn:hover { background: var(--navy-dark); }
+  .btn:disabled { opacity: .55; cursor: default; }
+
+  /* ── top bar ── */
+  .topbar {
+    background: var(--navy); color: #fff; display: flex; align-items: center; gap: 16px;
+    padding: 8px 18px; border-bottom: 3px solid #c8102e;
+  }
+  .topbar .brand { font-family: Georgia, "Times New Roman", "Noto Sans Devanagari", serif; font-size: 20px; }
+  .topbar .brand small { display: block; font-family: "Segoe UI", Tahoma, "Noto Sans Devanagari", sans-serif; font-size: 12px; opacity: .85; }
+  .topbar .spacer { flex: 1; }
+  .topbar .user { font-size: 13px; text-align: right; }
+  .topbar .user code { background: rgba(255,255,255,.12); padding: 1px 6px; border-radius: 2px; }
+  .topbar .user .linkbtn { color: #d6e4f5; margin-left: 6px; }
+  .status { font-size: 12px; display: flex; align-items: center; gap: 6px; opacity: .9; }
+  .status .dot { width: 9px; height: 9px; border-radius: 50%; background: #e0a800; flex: none; }
+  .status.ok .dot { background: #3fb950; }
+  .status.err .dot { background: #f85149; }
+  #menuBtn { display: none; background: none; border: 1px solid rgba(255,255,255,.5); color: #fff; padding: 3px 9px; border-radius: 3px; }
+
+  /* ── layout ── */
+  .layout { flex: 1; display: flex; min-height: 0; overflow: hidden; }
+  aside {
+    width: 290px; flex: none; background: var(--panel); border-right: 1px solid var(--line);
+    display: flex; flex-direction: column; min-height: 0; overflow: hidden;
+  }
+  aside .side-top { padding: 12px; border-bottom: 1px solid var(--line-soft); display: grid; gap: 8px; }
+  aside input[type=search] { width: 100%; padding: 6px 8px; border: 1px solid var(--line); border-radius: 3px; font: inherit; font-size: 14px; }
+  aside h2 { font-size: 12px; font-weight: 600; letter-spacing: .4px; color: var(--muted); margin: 12px 12px 6px; }
+  #convList { list-style: none; margin: 0; padding: 0; overflow-y: auto; flex: 1 1 auto; min-height: 0; overscroll-behavior: contain; }
+  #convList li.group { font-size: 11.5px; font-weight: 600; color: var(--muted); padding: 9px 12px 3px; background: #fafbfc; }
+  .tag { display: inline-block; font-size: 11px; line-height: 1.5; border: 1px solid #c9d5e4; border-radius: 2px; padding: 0 5px;
+         color: var(--navy); background: #f4f7fb; margin-right: 6px; white-space: nowrap; }
+  #convList li { border-bottom: 1px solid var(--line-soft); }
+  #convList li a { display: block; padding: 9px 12px 4px; text-decoration: none; color: var(--text); }
+  #convList li a:hover { background: var(--you); }
+  #convList li.active { background: #e7eef7; box-shadow: inset 3px 0 0 var(--navy); }
+  #convList .title { display: block; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  #convList .when { font-size: 12px; color: var(--muted); }
+  #convList .row-actions { padding: 0 12px 8px; display: none; gap: 12px; }
+  #convList li:hover .row-actions, #convList li.active .row-actions, #convList li:focus-within .row-actions { display: flex; }
+  #convList .none { padding: 14px 12px; color: var(--muted); font-size: 13px; }
+  aside .side-foot { flex: none; border-top: 1px solid var(--line-soft); padding: 10px 12px; font-size: 12px; color: var(--muted); display: grid; gap: 8px; }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); text-align: center; gap: 4px; }
+  .stats div { border: 1px solid var(--line-soft); border-radius: 2px; padding: 4px 2px; background: #fafbfc; }
+  .stats b { display: block; font-size: 15px; color: var(--text); }
+
+  main { flex: 1; display: flex; flex-direction: column; min-width: 0; min-height: 0; overflow: hidden; background: var(--panel); }
+  .conv-head { padding: 10px 22px; border-bottom: 1px solid var(--line); display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+  .conv-head { flex: none; }
+  .conv-head h1 { font: 400 19px/1.35 Georgia, "Times New Roman", "Noto Sans Devanagari", serif; margin: 0; flex: 1; min-width: 200px; }
+  .conv-head h1.editable { cursor: pointer; }
+  .conv-head h1.editable:hover { text-decoration: underline dotted; }
+  .conv-head .cid { font-size: 12px; color: var(--muted); }
+  .conv-head .actions { display: flex; gap: 14px; }
+
+  #thread { flex: 1 1 auto; min-height: 0; overflow-y: auto; overscroll-behavior: contain; }
+  .composer, .loading-bar { flex: none; }
+  #messages { max-width: 840px; margin: 0 auto; padding: 18px 22px 28px; }
+
+  /* ── welcome / coverage ── */
+  .welcome h2 { font: 400 22px/1.35 Georgia, "Noto Sans Devanagari", serif; margin: 4px 0 2px; }
+  .welcome h2 .en { font-family: "Segoe UI", Tahoma, sans-serif; font-size: 14px; display: block; }
+  .welcome > p { margin: 8px 0 12px; }
+  .scope-box { border: 1px solid var(--warn-line); background: var(--warn-bg); padding: 7px 12px; border-radius: 3px; margin: 10px 0 14px; font-size: 14px; }
+  .svc { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 0 0 14px; }
+  .svc section { border: 1px solid var(--line); border-radius: 3px; padding: 10px 12px; }
+  .svc h3 { margin: 0; font-size: 15px; }
+  .svc h3 .en { font-weight: 400; margin-left: 4px; }
+  .svc p { margin: 3px 0 6px; font-size: 13.5px; color: var(--muted); }
+  .svc ul { margin: 0; padding-left: 18px; font-size: 14px; }
+  .svc li { margin: 2px 0; }
+  .note { font-size: 12.5px; color: var(--muted); }
+
+  /* ── messages ── */
+  .msg { border: 1px solid var(--line); border-radius: 3px; margin: 0 0 16px; background: #fff; }
+  .msg .who {
+    font-size: 12px; color: var(--muted); padding: 6px 14px; border-bottom: 1px solid var(--line-soft);
+    display: flex; gap: 8px; flex-wrap: wrap; align-items: baseline; background: #fafbfc;
+  }
+  .msg .who b { color: var(--text); font-size: 13px; }
+  .msg.you { background: var(--you); margin-left: 8%; }
+  .msg.you .who { background: transparent; }
+  .msg.you .body { font-size: 15px; padding: 8px 14px 10px; white-space: pre-wrap; }
+
+  .msg .body { padding: 12px 18px 14px; overflow-wrap: anywhere; }
+  .msg.bot .body { font-size: 15.5px; line-height: 1.75; max-width: 72ch; }
+  .msg.bot .body p { margin: 0 0 10px; }
+  .msg.bot .body p.lead { font-size: 16.5px; line-height: 1.7; }
+  .msg.bot .body p:last-child { margin-bottom: 0; }
+  .msg.bot .body ul, .msg.bot .body ol { margin: 4px 0 12px; padding-left: 22px; }
+  .msg.bot .body li { margin: 4px 0; padding-left: 2px; }
+  .msg.bot .body li::marker { color: var(--navy); }
+  .msg.bot .body b { font-weight: 600; color: #10233d; }
+  .msg.bot .body h3 { font-size: 15px; margin: 12px 0 4px; }
+  .msg.bot .body .more {
+    font-size: 13.5px; color: var(--muted); border-top: 1px dashed var(--line); padding-top: 8px; margin-top: 12px;
+  }
+  .msg .body a.cite {
+    display: inline-block; font-size: 11px; line-height: 1; padding: 2px 4px; margin-left: 2px; vertical-align: 2px;
+    background: var(--cite-bg); border: 1px solid var(--cite-line); border-radius: 2px; text-decoration: none; font-weight: 600;
+  }
+  .msg .body a.cite:hover { background: #dbe6f5; }
+  .msg.refused .body { background: var(--warn-bg); }
+  .msg .sources { border-top: 1px solid var(--line-soft); padding: 8px 18px 10px; font-size: 13px; }
+  .msg .sources b { font-size: 12px; color: var(--muted); }
+  .msg .sources ol { margin: 4px 0 0; padding-left: 20px; }
+  .msg .sources li { margin: 2px 0; }
+  .msg .sources .date { color: var(--muted); }
+  .msg .tools { border-top: 1px solid var(--line-soft); padding: 6px 18px; display: flex; gap: 16px; flex-wrap: wrap; }
+  .followups { border-top: 1px solid var(--line-soft); padding: 8px 18px 10px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .followups span { font-size: 12px; color: var(--muted); margin-right: 2px; }
+  .chip { border: 1px solid var(--cite-line); background: #fff; color: var(--link); border-radius: 3px; padding: 3px 9px; font-size: 13px; text-align: left; }
+  .chip:hover { background: var(--cite-bg); }
+  .fb { margin-left: auto; display: flex; gap: 8px; align-items: center; font-size: 12px; color: var(--muted); }
+  .fb button { border: 1px solid var(--line); background: #fff; border-radius: 2px; padding: 1px 8px; font-size: 12px; color: var(--text); }
+  .fb button.on { background: var(--navy); border-color: var(--navy); color: #fff; }
+  .panel { border-top: 1px solid var(--line-soft); padding: 8px 18px 10px; font-size: 13px; background: #fbfbfc; }
+  .panel table { border-collapse: collapse; width: 100%; }
+  .panel td, .panel th { text-align: left; vertical-align: top; padding: 3px 10px 3px 0; }
+  .panel th { white-space: nowrap; color: var(--muted); font-weight: 600; width: 1%; }
+  .passage { border: 1px solid var(--line-soft); background: #fff; padding: 8px 10px; margin: 6px 0; }
+  .passage.hl { border-color: var(--navy); box-shadow: 0 0 0 2px #d7e3f2; }
+  .passage .ph { font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+  .passage .pt { white-space: pre-wrap; font-size: 13.5px; line-height: 1.65; }
+  .loading-bar { border-bottom: 1px solid var(--warn-line); background: var(--warn-bg); padding: 8px 22px; font-size: 13px; }
+  .loading-bar .row { max-width: 840px; margin: 0 auto; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .loading-bar .track { flex: 1; min-width: 160px; height: 10px; border: 1px solid #c9b46a; background: #fff; border-radius: 2px; overflow: hidden; }
+  .loading-bar .fill { height: 100%; width: 0; background: var(--navy); transition: width .6s; }
+  .loading-bar .fill.indeterminate { width: 30%; animation: slide 1.4s ease-in-out infinite; }
+  @keyframes slide { from { margin-left: -30%; } to { margin-left: 100%; } }
+  .loading-bar .pct { font-variant-numeric: tabular-nums; min-width: 3.5em; text-align: right; font-weight: 600; }
+  .pending .body { color: var(--muted); font-style: italic; font-size: 14px; }
+  .error .body { color: var(--danger); font-size: 14px; }
+
+  /* ── composer ── */
+  .composer { border-top: 1px solid var(--line); background: #f8f9fa; padding: 10px 22px 12px; }
+  .composer form { max-width: 840px; margin: 0 auto; display: grid; grid-template-columns: 1fr auto; gap: 8px; }
+  .composer .opts { grid-column: 1 / -1; display: flex; gap: 10px; align-items: center; font-size: 13px; color: var(--muted); flex-wrap: wrap; }
+  .composer select { font: inherit; font-size: 13px; padding: 3px 6px; border: 1px solid var(--line); border-radius: 3px; background: #fff; max-width: 100%; }
+  .composer textarea {
+    font: inherit; font-size: 15px; padding: 8px 10px; border: 1px solid #aab3bd; border-radius: 3px; resize: none;
+    min-height: 44px; max-height: 160px; background: #fff;
+  }
+  .composer textarea:focus, aside input:focus, .composer select:focus { outline: 2px solid #9fbbe0; outline-offset: 0; }
+  .composer .hint { grid-column: 1 / -1; font-size: 12px; color: var(--muted); display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+
+  .backdrop { display: none; }
+  @media (max-width: 800px) {
+    #menuBtn { display: inline-block; }
+    .topbar { padding: 8px 12px; gap: 10px; }
+    .topbar .brand small, .status .label { display: none; }
+    aside { position: fixed; top: 0; bottom: 0; left: 0; z-index: 20; transform: translateX(-100%); transition: transform .15s; }
+    aside.open { transform: none; }
+    .backdrop.open { display: block; position: fixed; inset: 0; background: rgba(0,0,0,.3); z-index: 10; }
+    .conv-head, #messages, .composer { padding-left: 12px; padding-right: 12px; }
+    .msg.you { margin-left: 0; }
+    .msg .body, .msg .sources, .msg .tools, .panel { padding-left: 12px; padding-right: 12px; }
+    .svc { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <button id="menuBtn" aria-controls="sidebar" aria-expanded="false">कुराकानी</button>
+  <div class="brand">नेपाल सेवा · Nepal Sewa<small>सार्वजनिक सेवा सूचना डेस्क</small></div>
+  <div class="spacer"></div>
+  <div class="user">प्रयोगकर्ता ID: <code id="userId">…</code><button class="linkbtn" id="changeUser" type="button">बदल्नुहोस्</button></div>
+  <div class="status" id="status" role="status"><span class="dot"></span><span class="label">जोडिँदै… / Connecting…</span></div>
+</header>
+
+<div class="layout">
+  <aside id="sidebar" aria-label="Conversations">
+    <div class="side-top">
+      <button class="btn" id="newConv" type="button">+ नयाँ कुराकानी / New conversation</button>
+      <input type="search" id="convSearch" placeholder="कुराकानी खोज्नुहोस् / Search" aria-label="Search conversations">
+    </div>
+    <h2>तपाईंका कुराकानीहरू · Your conversations</h2>
+    <ul id="convList"></ul>
+    <div class="side-foot">
+      <div class="stats" id="stats" title="ज्ञानकोष र तपाईंको प्रयोग / Knowledge base and your usage"></div>
+      <button class="linkbtn danger" id="deleteAll" type="button">सबै कुराकानी मेटाउनुहोस् / Delete all</button>
+    </div>
+  </aside>
+  <div class="backdrop" id="backdrop"></div>
+
+  <main>
+    <div class="conv-head">
+      <h1 id="convTitle">नयाँ कुराकानी</h1>
+      <span class="cid">कुराकानी ID: <code id="convId">—</code></span>
+      <span class="actions" id="convActions" hidden>
+        <button class="linkbtn" id="renameConv" type="button">नाम बदल्नुहोस्</button>
+        <button class="linkbtn" id="exportConv" type="button">डाउनलोड (.txt)</button>
+        <button class="linkbtn danger" id="deleteConv" type="button">मेटाउनुहोस्</button>
+      </span>
+    </div>
+
+    <div class="loading-bar" id="loadingBar" hidden>
+      <div class="row">
+        <span id="loadingText">खोज सूची तयार हुँदैछ… / Preparing the search index…</span>
+        <div class="track" role="progressbar" aria-valuemin="0" aria-valuemax="100" id="loadingTrack"><div class="fill indeterminate" id="loadingFill"></div></div>
+        <span class="pct" id="loadingPct"></span>
+      </div>
+    </div>
+
+    <div id="thread"><div id="messages" aria-live="polite"></div></div>
+
+    <div class="composer">
+      <form id="form">
+        <div class="opts">
+          <label for="domain">खोज्ने सेवा / Search in:</label>
+          <select id="domain"><option value="">सबै ४ सेवा (आफैँ पहिचान) / All 4 services (auto)</option></select>
+        </div>
+        <textarea id="input" rows="1" maxlength="1000" placeholder="नेपाली वा अंग्रेजीमा प्रश्न लेख्नुहोस् / Type your question in Nepali or English"></textarea>
+        <button class="btn" id="send" type="submit" disabled>पठाउनुहोस्</button>
+        <div class="hint">
+          <span>Enter = पठाउने · Shift+Enter = नयाँ लाइन</span>
+          <span id="counter">0 / 1000</span>
+        </div>
+      </form>
+    </div>
+  </main>
+</div>
+
+<script>
+(() => {
+  "use strict";
+  const $ = (id) => document.getElementById(id);
+  const ID_RE = /^[A-Za-z0-9_-]{3,64}$/;
+  const store = {
+    get(k) { try { return localStorage.getItem(k); } catch { return null; } },
+    set(k, v) { try { localStorage.setItem(k, v); } catch { /* private mode */ } },
+  };
+
+  // One-line summary of each service (welcome page). Keep in sync with config/domains.yaml.
+  const COVERAGE = {
+    identity_civil_registration: "राष्ट्रिय परिचयपत्र, जन्म/मृत्यु/विवाह/बसाइँसराइ दर्ता, नागरिकता, राहदानी",
+    land_property: "जग्गा रजिष्ट्रेशन, नामसारी, लालपुर्जा, नापी, मालपोत",
+    employment_labour: "श्रम स्वीकृति, वैदेशिक रोजगार, सामाजिक सुरक्षा कोष, श्रम ऐन",
+    health_social_welfare: "स्वास्थ्य बीमा, सामाजिक सुरक्षा भत्ता, अपाङ्गता परिचयपत्र",
+  };
+
+  const state = { userId: "", convId: "", convTitle: "", conversations: [], domains: [], busy: false, ready: false };
+
+  // ── helpers ────────────────────────────────────────────────────────────────
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  function fmtTime(iso) {
+    if (!iso) return "";
+    const d = new Date(iso);
+    const today = new Date().toDateString() === d.toDateString();
+    return today ? d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })
+                 : d.toLocaleDateString([], { day: "numeric", month: "short", year: "numeric" });
+  }
+  async function api(path, opts = {}) {
+    const res = await fetch(path, { headers: { "Content-Type": "application/json" }, ...opts });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) {
+      const d = data.detail;
+      throw new Error(typeof d === "string" ? d : (Array.isArray(d) ? d.map((x) => x.msg).join("; ") : `HTTP ${res.status}`));
+    }
+    return data;
+  }
+  const q = () => `user_id=${encodeURIComponent(state.userId)}`;
+  const domain = (id) => state.domains.find((d) => d.id === id);
+  const domainLabel = (id) => { const d = domain(id); return d ? `${d.name_np} (${d.name_en})` : ""; };
+  function scrollDown() { requestAnimationFrame(() => { $("thread").scrollTop = $("thread").scrollHeight; }); }
+
+  // Answer text -> HTML: lead sentence, paragraphs, "- " / "1." lists, **bold**, links,
+  // [स्रोत n] citation buttons, and the closing "थप जानकारी / More information" line as a footnote.
+  function renderAnswer(text, msgKey) {
+    const inline = (s) => esc(s)
+      .replace(/\*\*(.+?)\*\*/g, "<b>$1</b>")
+      .replace(/(https?:\/\/[^\s<)\]]+)/g, (u) => `<a href="${u}" target="_blank" rel="noopener">${u}</a>`)
+      .replace(/\[(?:स्रोत|Source|source)\s*([\d०-९]+(?:\s*,\s*(?:स्रोत\s*)?[\d०-९]+)*)\]/g, (_, nums) =>
+        nums.split(",").map((n) => {
+          const k = n.replace(/स्रोत/, "").trim().replace(/[०-९]/g, (c) => "०१२३४५६७८९".indexOf(c));
+          return `<a href="#" class="cite" data-cite="${k}" data-msg="${msgKey}" title="स्रोत ${k} हेर्नुहोस् / Show passage ${k}">${k}</a>`;
+        }).join(""));
+    const out = [];
+    let list = null;
+    const flush = () => { if (list) { out.push(`<${list.tag}>${list.items.map((l) => `<li>${l}</li>`).join("")}</${list.tag}>`); list = null; } };
+    for (const raw of String(text).split("\n")) {
+      const line = raw.trim();
+      const bullet = line.match(/^[-*•]\s+(.*)/);
+      const numbered = line.match(/^(?:\d+|[०-९]+)[.)]\s+(.*)/);
+      if (bullet || numbered) {
+        const tag = bullet ? "ul" : "ol";
+        if (!list || list.tag !== tag) { flush(); list = { tag, items: [] }; }
+        list.items.push(inline((bullet || numbered)[1]));
+        continue;
+      }
+      flush();
+      if (!line) continue;
+      if (/^#{1,4}\s+/.test(line)) { out.push(`<h3>${inline(line.replace(/^#+\s+/, ""))}</h3>`); continue; }
+      if (/^(थप जानकारी|More information)\s*:/i.test(line)) { out.push(`<p class="more">${inline(line)}</p>`); continue; }
+      out.push(`<p${out.length ? "" : ' class="lead"'}>${inline(line)}</p>`);
+    }
+    flush();
+    return out.join("");
+  }
+
+  // ── user id ────────────────────────────────────────────────────────────────
+  function newId(prefix) {
+    const a = new Uint8Array(6);
+    if (window.crypto && crypto.getRandomValues) crypto.getRandomValues(a);
+    else a.forEach((_, i) => (a[i] = Math.floor(Math.random() * 256)));
+    return prefix + Array.from(a, (b) => b.toString(16).padStart(2, "0")).join("");
+  }
+  function setUser(id) {
+    state.userId = id;
+    store.set("nepalSewa.userId", id);
+    $("userId").textContent = id;
+  }
+  $("changeUser").onclick = async () => {
+    const id = (prompt("अर्को प्रयोगकर्ता ID लेख्नुहोस् (अक्षर, अङ्क, - वा _, ३–६४ वटा)।\n" +
+                       "Enter a user ID to switch to. Conversations are saved under the user ID.", state.userId) || "").trim();
+    if (!id || id === state.userId) return;
+    if (!ID_RE.test(id)) { alert("यो प्रयोगकर्ता ID मिलेन। / That user ID is not valid."); return; }
+    setUser(id);
+    openConversation("");
+    await loadConversations();
+  };
+
+  // ── conversations ──────────────────────────────────────────────────────────
+  async function loadConversations() {
+    try { state.conversations = await api(`/api/conversations?${q()}`); }
+    catch { state.conversations = []; }
+    renderConvList();
+  }
+  const SHORT = {
+    identity_civil_registration: "परिचयपत्र/दर्ता",
+    land_property: "जग्गा",
+    employment_labour: "रोजगार/SSF",
+    health_social_welfare: "स्वास्थ्य/भत्ता",
+  };
+  function dateGroup(iso) {
+    const d = new Date(iso), now = new Date();
+    const days = Math.floor((new Date(now.toDateString()) - new Date(d.toDateString())) / 86400000);
+    return days <= 0 ? "आज · Today" : days === 1 ? "हिजो · Yesterday" : days < 7 ? "यो हप्ता · This week" : "पहिले · Earlier";
+  }
+  function renderConvList() {
+    const term = $("convSearch").value.trim().toLowerCase();
+    const items = state.conversations.filter((c) => !term || c.title.toLowerCase().includes(term));
+    const ul = $("convList");
+    renderStats();
+    if (!items.length) {
+      ul.innerHTML = `<li class="none">${term ? "खोजसँग मिल्ने कुराकानी छैन। / No match."
+        : "अहिलेसम्म कुनै कुराकानी छैन। / No conversations yet."}</li>`;
+      return;
+    }
+    let lastGroup = "";
+    ul.innerHTML = items.map((c) => {
+      const group = dateGroup(c.updated_at);
+      const head = group !== lastGroup ? `<li class="group">${group}</li>` : "";
+      lastGroup = group;
+      const n = Math.ceil(c.message_count / 2);
+      return `${head}
+      <li class="${c.id === state.convId ? "active" : ""}">
+        <a href="#${esc(c.id)}" data-open="${esc(c.id)}">
+          <span class="title">${esc(c.title)}</span>
+          <span class="when">${c.domain_id && SHORT[c.domain_id] ? `<span class="tag">${SHORT[c.domain_id]}</span>` : ""}${n} च्याट · ${fmtTime(c.updated_at)}</span>
+        </a>
+        <div class="row-actions">
+          <button class="linkbtn" type="button" data-rename="${esc(c.id)}">नाम बदल्नुहोस्</button>
+          <button class="linkbtn danger" type="button" data-delete="${esc(c.id)}">मेटाउनुहोस्</button>
+        </div>
+      </li>`;
+    }).join("");
+  }
+  function renderStats() {
+    const chats = state.conversations.reduce((s, c) => s + Math.ceil(c.message_count / 2), 0);
+    const cell = (n, label, title) => `<div title="${title}"><b>${n}</b>${label}</div>`;
+    $("stats").innerHTML =
+      cell(state.chunks || "–", "अंश", "Passages in the knowledge base") +
+      cell(state.sourceCount || "–", "स्रोत", "Official source pages and documents") +
+      cell(state.conversations.length, "कुराकानी", "Your conversations") +
+      cell(chats, "च्याट", "Your questions (chats)");
+  }
+  $("convList").addEventListener("click", (e) => {
+    const t = e.target.closest("[data-open],[data-rename],[data-delete]");
+    if (!t) return;
+    e.preventDefault();
+    if (t.dataset.open) { openConversation(t.dataset.open); drawer(false); }
+    else if (t.dataset.rename) renameConversation(t.dataset.rename);
+    else if (t.dataset.delete) deleteConversation(t.dataset.delete);
+  });
+  $("convSearch").addEventListener("input", renderConvList);
+
+  function setHeader() {
+    $("convTitle").textContent = state.convId ? state.convTitle : "नयाँ कुराकानी";
+    $("convId").textContent = state.convId || "— (पहिलो प्रश्नपछि बन्छ)";
+    $("convActions").hidden = !state.convId;
+    $("convTitle").classList.toggle("editable", !!state.convId);
+    $("convTitle").title = state.convId ? "नाम बदल्न क्लिक गर्नुहोस् / Click to rename" : "";
+    document.title = (state.convId ? state.convTitle + " — " : "") + "नेपाल सेवा";
+  }
+
+  async function openConversation(id) {
+    state.convId = id;
+    if (location.hash.slice(1) !== id) history.replaceState(null, "", id ? `#${id}` : location.pathname);
+    $("messages").innerHTML = "";
+    if (!id) { state.convTitle = ""; setHeader(); renderWelcome(); renderConvList(); $("input").focus(); return; }
+    try {
+      const conv = await api(`/api/conversations/${encodeURIComponent(id)}?${q()}`);
+      state.convTitle = conv.title;
+      setHeader();
+      for (const m of conv.messages) {
+        if (m.role === "user") addYou(m.content, m.created_at, m.meta.domain);
+        else addAnswer({ answer: m.content, ...m.meta, message_id: m.id }, m.created_at);
+      }
+      scrollDown();
+    } catch (err) {
+      state.convId = "";
+      setHeader();
+      renderWelcome(`यो कुराकानी खोल्न सकिएन (${err.message})। मेटाइएको वा अर्को प्रयोगकर्ता ID को हुन सक्छ।`);
+    }
+    renderConvList();
+  }
+
+  async function renameConversation(id) {
+    const conv = state.conversations.find((c) => c.id === id);
+    const title = (prompt("कुराकानीको नयाँ नाम / New name:", conv ? conv.title : state.convTitle) || "").trim();
+    if (!title) return;
+    try {
+      await api(`/api/conversations/${encodeURIComponent(id)}?${q()}`, { method: "PATCH", body: JSON.stringify({ title }) });
+      if (id === state.convId) { state.convTitle = title.slice(0, 80); setHeader(); }
+      await loadConversations();
+    } catch (err) { alert("नाम बदल्न सकिएन / Could not rename: " + err.message); }
+  }
+  async function deleteConversation(id) {
+    const conv = state.conversations.find((c) => c.id === id);
+    if (!confirm(`"${conv ? conv.title : state.convTitle}" कुराकानी मेटाउने? यो फिर्ता हुँदैन।\nDelete this conversation? This cannot be undone.`)) return;
+    try {
+      await api(`/api/conversations/${encodeURIComponent(id)}?${q()}`, { method: "DELETE" });
+      if (id === state.convId) openConversation("");
+      await loadConversations();
+    } catch (err) { alert("मेटाउन सकिएन / Could not delete: " + err.message); }
+  }
+  $("deleteAll").onclick = async () => {
+    if (!state.conversations.length) return;
+    if (!confirm(`प्रयोगकर्ता ${state.userId} का सबै ${state.conversations.length} कुराकानी मेटाउने? यो फिर्ता हुँदैन।\nDelete all conversations?`)) return;
+    try {
+      await api(`/api/conversations?${q()}`, { method: "DELETE" });
+      openConversation("");
+      await loadConversations();
+    } catch (err) { alert("मेटाउन सकिएन / Could not delete: " + err.message); }
+  };
+  $("newConv").onclick = () => { openConversation(""); drawer(false); };
+  $("renameConv").onclick = () => state.convId && renameConversation(state.convId);
+  $("convTitle").onclick = () => state.convId && renameConversation(state.convId);
+  $("deleteConv").onclick = () => state.convId && deleteConversation(state.convId);
+  $("exportConv").onclick = async () => {
+    if (!state.convId) return;
+    const conv = await api(`/api/conversations/${encodeURIComponent(state.convId)}?${q()}`);
+    const lines = [conv.title, `कुराकानी ID: ${conv.id} · प्रयोगकर्ता ID: ${conv.user_id}`, ""];
+    for (const m of conv.messages) {
+      lines.push(`${m.role === "user" ? "तपाईं" : "नेपाल सेवा"} (${new Date(m.created_at).toLocaleString()}):`, m.content);
+      if (m.role === "assistant" && (m.meta.sources || []).length) {
+        lines.push("स्रोत:", ...m.meta.sources.map((s, i) => `  ${i + 1}. ${s.name} — ${s.url}`));
+      }
+      lines.push("");
+    }
+    const blob = new Blob([lines.join("\n")], { type: "text/plain;charset=utf-8" });
+    const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(blob), download: `${conv.id}.txt` });
+    a.click();
+    URL.revokeObjectURL(a.href);
+  };
+
+  // ── welcome page ───────────────────────────────────────────────────────────
+  function renderWelcome(notice) {
+    const cards = state.domains.map((d) => `
+      <section>
+        <h3>${esc(d.name_np)}<span class="en">${esc(d.name_en)}</span></h3>
+        <p>${esc(COVERAGE[d.id] || "")}</p>
+        <ul>${(d.examples || []).slice(0, 2).map((ex) => `<li><a href="#" data-ask="${esc(ex)}">${esc(ex)}</a></li>`).join("")}</ul>
+      </section>`).join("");
+    $("messages").innerHTML = `
+      <div class="welcome">
+        ${notice ? `<p class="note">${esc(notice)}</p>` : ""}
+        <h2>नमस्ते! के जानकारी चाहियो?<span class="en">Ask in Nepali or English — answers come only from official sources.</span></h2>
+        <div class="scope-box">यी <b>४ सेवा</b>बारे मात्र प्रश्न सोध्नुहोस्। <span class="en">Only these 4 services are covered.</span></div>
+        <div class="svc">${cards || "<p>सेवाहरू लोड हुँदै…</p>"}</div>
+        <p class="note">विद्यार्थी परियोजना — आधिकारिक सरकारी सेवा होइन। निर्णय गर्नुअघि उत्तरमा दिइएको आधिकारिक पेज हेर्नुहोस्।</p>
+      </div>`;
+  }
+
+  // ── messages ───────────────────────────────────────────────────────────────
+  $("messages").addEventListener("click", (e) => {
+    const ex = e.target.closest("[data-ask]");
+    if (ex) { e.preventDefault(); send(ex.dataset.ask); return; }
+    const cite = e.target.closest("[data-cite]");
+    if (cite) { e.preventDefault(); showPassage(cite.dataset.msg, cite.dataset.cite); return; }
+    const tool = e.target.closest("[data-toggle]");
+    if (tool) {
+      const panel = tool.closest(".msg").querySelector(`.panel.${tool.dataset.toggle}`);
+      panel.hidden = !panel.hidden;
+      tool.textContent = panel.hidden ? tool.dataset.show : tool.dataset.hide;
+      return;
+    }
+    const copy = e.target.closest("[data-copy]");
+    if (copy) {
+      const text = copy.closest(".msg").querySelector(".body").innerText;
+      (navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject()).then(
+        () => { copy.textContent = "कपी भयो"; setTimeout(() => (copy.textContent = "उत्तर कपी गर्नुहोस्"), 1500); },
+        () => alert("यो ब्राउजरमा कपी गर्न मिलेन। / Copy is not available."));
+      return;
+    }
+    const fb = e.target.closest("[data-helpful]");
+    if (fb) {
+      const box = fb.closest(".fb");
+      const value = fb.classList.contains("on") ? null : fb.dataset.helpful === "true";  // click again = undo
+      api(`/api/messages/${box.dataset.id}/feedback?${q()}`, { method: "PUT", body: JSON.stringify({ helpful: value }) })
+        .then(() => box.querySelectorAll("button").forEach((b) => b.classList.toggle("on", value !== null && b === fb)))
+        .catch((err) => alert("सुरक्षित गर्न सकिएन / Could not save: " + err.message));
+      return;
+    }
+    const retry = e.target.closest("[data-retry]");
+    if (retry) { retry.closest(".msg").remove(); send(retry.dataset.retry, true); }
+  });
+
+  function addYou(text, when, domainId) {
+    const div = document.createElement("div");
+    div.className = "msg you";
+    div.innerHTML = `<div class="who"><b>तपाईं</b><span>${fmtTime(when || new Date().toISOString())}</span>
+      ${domainId ? `<span>· खोज: ${esc(domainLabel(domainId))}</span>` : ""}</div><div class="body"></div>`;
+    div.querySelector(".body").textContent = text;
+    $("messages").appendChild(div);
+    return div;
+  }
+
+  let msgCounter = 0;
+  function addAnswer(r, when, el) {
+    const key = `m${++msgCounter}`;
+    const div = el || document.createElement("div");
+    div.className = "msg bot" + (r.refused ? " refused" : "");
+    div.id = key;
+    const a = r.analysis || {};
+    const sources = r.sources || [];
+    const passages = r.passages || [];
+    const toggle = (name, show, hide) =>
+      `<button class="linkbtn" type="button" data-toggle="${name}" data-show="${show}" data-hide="${hide}">${show}</button>`;
+    div.innerHTML = `
+      <div class="who"><b>नेपाल सेवा</b><span>${fmtTime(when || new Date().toISOString())}</span>
+        ${r.domain_id && domain(r.domain_id) ? `<span>· ${esc(domainLabel(r.domain_id))}</span>` : ""}
+        ${sources.length ? `<span>· ${sources.length} स्रोत</span>` : ""}
+        ${r.latency_ms ? `<span>· ${(r.latency_ms / 1000).toFixed(1)} सेकेन्ड</span>` : ""}</div>
+      <div class="body">${renderAnswer(r.answer, key)}</div>
+      ${sources.length ? `<div class="sources"><b>स्रोतहरू / Sources</b><ol>${sources.map((s) => `
+          <li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name || s.url)}</a>
+          ${s.fetched_at ? `<span class="date">(संकलन मिति ${esc(s.fetched_at.slice(0, 10))})</span>` : ""}</li>`).join("")}</ol></div>` : ""}
+      <div class="tools">
+        <button class="linkbtn" type="button" data-copy>उत्तर कपी गर्नुहोस्</button>
+        ${passages.length ? toggle("passages", `प्रयोग भएका अंशहरू हेर्नुहोस् (${passages.length})`, "अंशहरू लुकाउनुहोस्") : ""}
+        ${a.method ? toggle("search", "कसरी खोजियो?", "खोज विवरण लुकाउनुहोस्") : ""}
+        ${r.message_id ? `<span class="fb" data-id="${r.message_id}">उपयोगी भयो?
+          <button type="button" data-helpful="true" class="${r.helpful === true ? "on" : ""}">हो</button>
+          <button type="button" data-helpful="false" class="${r.helpful === false ? "on" : ""}">होइन</button></span>` : ""}
+      </div>
+      <div class="panel search" hidden>
+        <table>
+          <tr><th>सेवा / Service</th><td>${esc(domainLabel(a.domain_id) || "निश्चित भएन — सबै सेवामा खोजियो / not sure — searched all")}</td></tr>
+          <tr><th>बुझिएको प्रश्न / Understood as</th><td>${esc(a.standalone || "")}</td></tr>
+          ${(a.search_queries || []).map((s, i) => `<tr><th>${i ? "" : "थप खोज / Also searched"}</th><td>${esc(s)}</td></tr>`).join("")}
+          <tr><th>विधि / Method</th><td>${a.method === "llm" ? "LLM ले सेवा पहिचान र प्रश्न पुनर्लेखन गर्‍यो" : "शब्दका आधारमा सेवा पहिचान (LLM बिना)"} · उत्तर: ${esc(r.llm_used || "—")}</td></tr>
+        </table>
+      </div>
+      <div class="panel passages" hidden>${passages.map((p) => `
+        <div class="passage" data-n="${p.index}">
+          <div class="ph">[${p.index}] ${esc(p.source_name)}${p.section ? " › " + esc(p.section) : ""}${p.date_bs ? " · " + esc(p.date_bs) : ""}
+            · <a href="${esc(p.source_url)}" target="_blank" rel="noopener">पेज खोल्नुहोस्</a></div>
+          <div class="pt">${esc(p.text)}</div>
+        </div>`).join("")}</div>`;
+    if (!el) $("messages").appendChild(div);
+    return div;
+  }
+
+  // Related questions from the same service, shown under the latest answer only.
+  function addFollowups(div, domainId, asked) {
+    document.querySelectorAll(".followups").forEach((f) => f.remove());
+    const d = domain(domainId);
+    const qs = (d ? d.examples : []).filter((ex) => ex.trim() !== asked.trim()).slice(0, 3);
+    if (!qs.length) return;
+    div.insertAdjacentHTML("beforeend", `<div class="followups"><span>सम्बन्धित प्रश्न:</span>
+      ${qs.map((ex) => `<button class="chip" type="button" data-ask="${esc(ex)}">${esc(ex)}</button>`).join("")}</div>`);
+  }
+
+  function showPassage(key, n) {
+    const msg = $(key);
+    if (!msg) return;
+    const panel = msg.querySelector(".panel.passages");
+    const btn = msg.querySelector('[data-toggle="passages"]');
+    if (panel.hidden) { panel.hidden = false; if (btn) btn.textContent = btn.dataset.hide; }
+    msg.querySelectorAll(".passage.hl").forEach((p) => p.classList.remove("hl"));
+    const p = panel.querySelector(`.passage[data-n="${n}"]`);
+    if (p) { p.classList.add("hl"); p.scrollIntoView({ behavior: "smooth", block: "center" }); }
+  }
+
+  // ── asking ─────────────────────────────────────────────────────────────────
+  function setBusy(v) { state.busy = v; updateSend(); }
+  async function send(text, isRetry = false) {
+    text = text.trim();
+    if (!text || state.busy) return;
+    if (!state.ready) { alert("सर्भर अझै तयार भएको छैन, केही बेरपछि प्रयास गर्नुहोस्। / The server is still loading."); return; }
+    if ($("messages").querySelector(".welcome")) $("messages").innerHTML = "";
+    const domainId = $("domain").value;
+    if (!isRetry) addYou(text, null, domainId);
+    const pending = document.createElement("div");
+    pending.className = "msg bot pending";
+    pending.innerHTML = `<div class="who"><b>नेपाल सेवा</b></div><div class="body">आधिकारिक स्रोतमा खोजी हुँदैछ… <span class="secs">0</span> सेकेन्ड</div>`;
+    $("messages").appendChild(pending);
+    const t0 = Date.now();
+    const timer = setInterval(() => { pending.querySelector(".secs").textContent = Math.round((Date.now() - t0) / 1000); }, 1000);
+    scrollDown();
+    setBusy(true);
+    try {
+      const r = await api("/api/chat", {
+        method: "POST",
+        body: JSON.stringify({ message: text, user_id: state.userId, conversation_id: state.convId || null, domain: domainId || null }),
+      });
+      addAnswer(r, null, pending);
+      if (!r.refused) addFollowups(pending, r.domain_id, text);
+      if (!state.convId) {
+        state.convId = r.conversation_id;
+        state.convTitle = r.conversation_title;
+        history.replaceState(null, "", `#${r.conversation_id}`);
+        setHeader();
+      }
+      loadConversations();
+    } catch (err) {
+      pending.className = "msg error";
+      pending.innerHTML = `<div class="who"><b>नेपाल सेवा</b></div>
+        <div class="body">माफ गर्नुहोस्, उत्तर दिन सकिएन (${esc(err.message)})।
+        <button class="linkbtn" type="button" data-retry="${esc(text)}">फेरि प्रयास गर्नुहोस्</button></div>`;
+    } finally {
+      clearInterval(timer);
+      setBusy(false);
+      scrollDown();
+    }
+  }
+
+  // ── composer ───────────────────────────────────────────────────────────────
+  const input = $("input");
+  function autosize() { input.style.height = "auto"; input.style.height = Math.min(input.scrollHeight, 160) + "px"; }
+  function updateSend() {
+    $("send").disabled = state.busy || !state.ready || !input.value.trim();
+    $("send").textContent = state.busy ? "पर्खनुहोस्…" : "पठाउनुहोस्";
+    $("counter").textContent = `${input.value.length} / 1000`;
+  }
+  input.addEventListener("input", () => { autosize(); updateSend(); });
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" && !e.shiftKey && !e.isComposing) { e.preventDefault(); $("form").requestSubmit(); }
+  });
+  $("form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    if ($("send").disabled) return;
+    const text = input.value;
+    input.value = "";
+    autosize();
+    send(text);
+  });
+
+  // ── mobile drawer + keyboard ───────────────────────────────────────────────
+  function drawer(open) {
+    $("sidebar").classList.toggle("open", open);
+    $("backdrop").classList.toggle("open", open);
+    $("menuBtn").setAttribute("aria-expanded", String(open));
+  }
+  $("menuBtn").onclick = () => drawer(!$("sidebar").classList.contains("open"));
+  $("backdrop").onclick = () => drawer(false);
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") drawer(false);
+    if (e.key === "/" && !["TEXTAREA", "INPUT"].includes(document.activeElement.tagName)) { e.preventDefault(); input.focus(); }
+  });
+  window.addEventListener("hashchange", () => {
+    const id = location.hash.slice(1);
+    if (id !== state.convId) openConversation(id);
+  });
+
+  // ── startup ────────────────────────────────────────────────────────────────
+  // Startup progress: the server loads the model and (re)builds the index in the background and
+  // reports {stage, done, total} in /api/health; the bar shows it until the engine is ready.
+  const STAGES = {
+    starting: "सुरु हुँदैछ… / Starting…",
+    chunks: "ज्ञानकोष पढ्दै… / Reading the knowledge base…",
+    model: "एम्बेडिङ मोडेल लोड हुँदै… / Loading the embedding model…",
+    bm25: "शब्द-खोज सूची बनाउँदै… / Building the keyword index…",
+    embedding: "खोज सूची पहिलो पटक बनाउँदै / Building the search index (first run only)",
+    reuse: "भेक्टर सूची लोड हुँदै… / Loading the vector index…",
+  };
+  function showProgress(h) {
+    const p = h.progress || {};
+    const bar = $("loadingBar");
+    bar.hidden = state.ready;
+    if (state.ready) return;
+    if (h.status === "error") {
+      $("loadingText").textContent = "इन्जिन सुरु हुन सकेन — सर्भर लग हेर्नुहोस्। / The engine failed to start — see the server log: " + (p.error || "");
+      $("loadingFill").className = "fill"; $("loadingPct").textContent = "";
+      return;
+    }
+    $("loadingText").textContent = STAGES[p.stage] || STAGES.starting;
+    const pct = p.total ? Math.round((100 * p.done) / p.total) : null;
+    $("loadingFill").className = "fill" + (pct === null ? " indeterminate" : "");
+    $("loadingFill").style.width = pct === null ? "" : pct + "%";
+    $("loadingTrack").setAttribute("aria-valuenow", pct ?? 0);
+    $("loadingPct").textContent = pct === null ? "" : `${pct}% (${p.done}/${p.total})`;
+  }
+
+  async function loadHealth() {
+    const el = $("status");
+    try {
+      const h = await api("/api/health");
+      state.ready = h.status === "ready";
+      el.className = "status " + (state.ready ? "ok" : h.status === "error" ? "err" : "");
+      el.querySelector(".label").textContent = state.ready ? `तयार · ${h.chunks} अंश` : "तयार हुँदैछ…";
+      state.chunks = h.chunks || 0;
+      renderStats();
+      showProgress(h);
+      if (!state.ready && h.status !== "error") setTimeout(loadHealth, 2000);
+    } catch {
+      state.ready = false;
+      el.className = "status err";
+      el.querySelector(".label").textContent = "सर्भरसँग जोडिन सकिएन";
+      $("loadingBar").hidden = false;
+      $("loadingText").textContent = "सर्भरसँग जोडिन सकिएन, फेरि प्रयास हुँदैछ… / Server not reachable, retrying…";
+      $("loadingFill").className = "fill indeterminate"; $("loadingPct").textContent = "";
+      setTimeout(loadHealth, 4000);
+    }
+    updateSend();
+  }
+
+  async function init() {
+    const saved = store.get("nepalSewa.userId");
+    setUser(saved && ID_RE.test(saved) ? saved : newId("u_"));
+    try { state.domains = await api("/api/domains"); } catch { state.domains = []; }
+    api("/api/sources").then((s) => { state.sourceCount = s.length; renderStats(); }).catch(() => {});
+    $("domain").insertAdjacentHTML("beforeend",
+      state.domains.map((d) => `<option value="${esc(d.id)}">${esc(d.name_np)} / ${esc(d.name_en)}</option>`).join(""));
+    loadHealth();
+    await loadConversations();
+    await openConversation(location.hash.slice(1));
+  }
+  init();
+})();
+</script>
+</body>
+</html>

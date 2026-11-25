@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "identity_civil_registration",
+  "source_name": "DoNIDCR NID Support Team",
+  "source_url": "https://donidcr.gov.np/pages/technical-support-related-to-national-identity-card-19/",
+  "document_type": "contact",
+  "fetched_at": "2026-11-24T04:39:21.699372+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 149543,
+  "sha256": "b46e28d1947de9c20abe02964e1b5f0507424331b8b545d693848e744c6c9d09",
+  "saved_path": "data/raw/identity_civil_registration/DoNIDCR-NID-Support-Team__20261124T043924Z.html",
+  "error_message": null
+}

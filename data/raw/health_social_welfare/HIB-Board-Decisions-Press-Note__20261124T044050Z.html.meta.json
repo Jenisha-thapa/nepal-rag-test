@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "health_social_welfare",
+  "source_name": "HIB Board Decisions Press Note",
+  "source_url": "https://hib.gov.np/content/369/press-note-regarding-the-major-decisions-regarding/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:40:49.471662+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 196126,
+  "sha256": "6cd02932723e47a1324dc03b501701b1414e9f84b89538a0b46db97381995b2e",
+  "saved_path": "data/raw/health_social_welfare/HIB-Board-Decisions-Press-Note__20261124T044050Z.html",
+  "error_message": null
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "dos.gov.np/services-list",
+  "source_url": "https://dos.gov.np/services-list/",
+  "document_type": "services",
+  "fetched_at": "2026-11-24T04:44:52.080565+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 94495,
+  "sha256": "41cb89adb376fd55b61eb5412fa095549b93aa025c9af4e6b17a648cc66cb1be",
+  "saved_path": "data/raw/land_property/dos.gov.np-services-list__20261124T044452Z.html",
+  "error_message": null
+}

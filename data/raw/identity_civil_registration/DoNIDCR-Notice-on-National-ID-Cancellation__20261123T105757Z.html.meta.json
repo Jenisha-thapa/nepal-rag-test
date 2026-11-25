@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "Identity & Civil Registration",
+  "source_name": "DoNIDCR — Notice on National ID Cancellation",
+  "source_url": "https://donidcr.gov.np/content/428/regarding-cancellation-of-national-identity-card-/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-23T10:57:45.723146+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 143772,
+  "sha256": "6784b6d3cb29b3e6ade02103547b4974ac4ef988d1fea89c271783d5b8662e61",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\identity_civil_registration\\DoNIDCR-Notice-on-National-ID-Cancellation__20261123T105757Z.html",
+  "error_message": null
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "health_social_welfare",
+  "source_name": "HIB Contact Us",
+  "source_url": "https://hib.gov.np/contact-us/",
+  "document_type": "contact",
+  "fetched_at": "2026-11-24T04:40:29.405537+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 170758,
+  "sha256": "68e8d6dd878e55ee7bd1e7793faf1db4588fe12e6df4d20a6f48b4a5713c4b05",
+  "saved_path": "data/raw/health_social_welfare/HIB-Contact-Us__20261124T044030Z.html",
+  "error_message": null
+}

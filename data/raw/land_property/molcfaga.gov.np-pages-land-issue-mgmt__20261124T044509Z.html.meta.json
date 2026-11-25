@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "molcfaga.gov.np/pages/land-issue-mgmt",
+  "source_url": "https://molcfaga.gov.np/pages/land-issue-mgmt",
+  "document_type": "about",
+  "fetched_at": "2026-11-24T04:45:07.151031+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 226838,
+  "sha256": "04a512432908919b38bb597420885be44fdb6e36fa053acc47eabd0f1d6e666a",
+  "saved_path": "data/raw/land_property/molcfaga.gov.np-pages-land-issue-mgmt__20261124T044509Z.html",
+  "error_message": null
+}

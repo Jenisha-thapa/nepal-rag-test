@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "molcfaga.gov.np/pages/division-of-land-management",
+  "source_url": "https://molcfaga.gov.np/pages/division-of-land-management",
+  "document_type": "about",
+  "fetched_at": "2026-11-24T04:45:04.213713+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 244089,
+  "sha256": "ad3608417486bb150da8d71d3992df4b7fabfe7918b69b1f1ec36eed3c3884b5",
+  "saved_path": "data/raw/land_property/molcfaga.gov.np-pages-division-of-land-management__20261124T044505Z.html",
+  "error_message": null
+}

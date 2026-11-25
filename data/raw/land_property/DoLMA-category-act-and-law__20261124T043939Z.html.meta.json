@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "DoLMA category/act-and-law/",
+  "source_url": "https://dolma.gov.np/category/act-and-law/",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T04:39:35.636589+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 102208,
+  "sha256": "7c16a73a4f29cea0dd010eb4f80bc43bc118058a4a06d69cffe2169fab5f633d",
+  "saved_path": "data/raw/land_property/DoLMA-category-act-and-law__20261124T043939Z.html",
+  "error_message": null
+}

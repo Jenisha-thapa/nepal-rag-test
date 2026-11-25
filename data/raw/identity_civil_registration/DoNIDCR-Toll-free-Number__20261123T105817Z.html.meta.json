@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "Identity & Civil Registration",
+  "source_name": "DoNIDCR — Toll-free Number",
+  "source_url": "https://donidcr.gov.np/carousel-detail/16/",
+  "document_type": "contact",
+  "fetched_at": "2026-11-23T10:58:14.447274+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 141307,
+  "sha256": "8d28c591484b2d27a63f9436e4711883da3cb1b584da774a7bdbe3d249936d1a",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\identity_civil_registration\\DoNIDCR-Toll-free-Number__20261123T105817Z.html",
+  "error_message": null
+}

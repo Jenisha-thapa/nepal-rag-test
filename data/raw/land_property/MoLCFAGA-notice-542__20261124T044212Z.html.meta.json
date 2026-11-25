@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "MoLCFAGA notice 542",
+  "source_url": "https://molcfaga.gov.np/content/542/regarding-the-operation-of-land-administration-services-/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:42:09.559001+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 223070,
+  "sha256": "bfc3514caa138efca881d127ea8cc32b0e4fb8a5a6130e573ab0d3e446c52819",
+  "saved_path": "data/raw/land_property/MoLCFAGA-notice-542__20261124T044212Z.html",
+  "error_message": null
+}

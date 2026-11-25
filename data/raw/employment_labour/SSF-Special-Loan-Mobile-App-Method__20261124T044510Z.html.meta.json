@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Special Loan Mobile App Method",
+  "source_url": "https://ssf.gov.np/list/service-method/special-loan-application-from-a",
+  "document_type": "procedure",
+  "fetched_at": "2026-11-24T04:45:09.214710+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 91358,
+  "sha256": "b895de7cf74b0891eca2e2afae32cc3a6f53ec99e185fb93910b8f6a0f11809c",
+  "saved_path": "data/raw/employment_labour/SSF-Special-Loan-Mobile-App-Method__20261124T044510Z.html",
+  "error_message": null
+}

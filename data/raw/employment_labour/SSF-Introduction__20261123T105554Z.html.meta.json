@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "SSF — Introduction",
+  "source_url": "https://ssf.gov.np/pages/introduction",
+  "document_type": "about",
+  "fetched_at": "2026-11-23T10:55:54.386238+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 93117,
+  "sha256": "48a7919450af53777fd2b17c9f5af560c2e042b81e8d416f968099b44241128f",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\employment_labour\\SSF-Introduction__20261123T105554Z.html",
+  "error_message": null
+}

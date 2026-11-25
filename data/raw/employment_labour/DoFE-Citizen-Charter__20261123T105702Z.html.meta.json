@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "DoFE — Citizen Charter",
+  "source_url": "https://dofe.gov.np/pages/citizen-charter",
+  "document_type": "charter",
+  "fetched_at": "2026-11-23T10:56:29.505920+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 215446,
+  "sha256": "e9d9a5a2208ffa4daf04e6f436267e587b63334a453b0f8cb9982114b39dd43a",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\employment_labour\\DoFE-Citizen-Charter__20261123T105702Z.html",
+  "error_message": null
+}

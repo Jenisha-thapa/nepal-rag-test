@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "SSF — Retirement Claim Manual PDF",
+  "source_url": "https://ssf.gov.np/images/page_content/16436424377418_retirement_withdraw_process_manual.pdf",
+  "document_type": "procedure",
+  "fetched_at": "2026-11-23T11:06:39.265710+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 599538,
+  "sha256": "adb2bb0c969ee3f0e21a559c50f6420d6f7082c59afcdc527c5f32061bef49a4",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\employment_labour\\SSF-Retirement-Claim-Manual-PDF__20261123T110640Z.pdf",
+  "error_message": null
+}

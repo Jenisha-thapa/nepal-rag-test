@@ -1,0 +1,16 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "Right to Safe Motherhood and Reproductive Health Act 2075 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20260207114014id_/https://giwmscdnone.gov.np/media/app/public/275/posts/1720419254_78.pdf",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T05:59:43.583065+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 564606,
+  "sha256": "88191ec49d37bdbb267cf2af1da887ea89df2048866fbc4b612a2cb6ab590ec5",
+  "saved_path": "data/raw/health_social_welfare/Right-to-Safe-Motherhood-and-Reproductive-Health-Act-2075-Nepal-Law-Commission-a__20261124T055951Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

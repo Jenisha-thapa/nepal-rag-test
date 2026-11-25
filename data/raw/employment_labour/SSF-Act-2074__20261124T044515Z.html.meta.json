@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Act 2074",
+  "source_url": "https://ssf.gov.np/list/act_regulation/contribution-based-social-security-act-2074",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T04:45:15.767199+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 91790,
+  "sha256": "73a75ca4db7a5329097ee2d18309fb92ca56478a4ec0a6d655219b1183e26d6e",
+  "saved_path": "data/raw/employment_labour/SSF-Act-2074__20261124T044515Z.html",
+  "error_message": null
+}

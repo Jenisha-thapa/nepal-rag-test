@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "MoLCFAGA notice 399",
+  "source_url": "https://molcfaga.gov.np/content/399/very-important-information-regarding-the-delivery-of/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:42:03.316180+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 224023,
+  "sha256": "3dc8c76e617b77c19fbb06f3f42c9e41066acd8e8789dce92616218f7a3cd42c",
+  "saved_path": "data/raw/land_property/MoLCFAGA-notice-399__20261124T044204Z.html",
+  "error_message": null
+}

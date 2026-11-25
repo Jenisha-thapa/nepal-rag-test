@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Videos",
+  "source_url": "https://ssf.gov.np/videos",
+  "document_type": "services",
+  "fetched_at": "2026-11-24T04:42:57.144281+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 88758,
+  "sha256": "23fb28a4a93093d74686c64f96b983bae505f75e8d4159da028633a2a778c479",
+  "saved_path": "data/raw/employment_labour/SSF-Videos__20261124T044257Z.html",
+  "error_message": null
+}

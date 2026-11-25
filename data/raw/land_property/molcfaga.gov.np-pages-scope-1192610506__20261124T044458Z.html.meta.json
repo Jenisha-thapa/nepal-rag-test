@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "molcfaga.gov.np/pages/scope-1192610506",
+  "source_url": "https://molcfaga.gov.np/pages/scope-1192610506/",
+  "document_type": "about",
+  "fetched_at": "2026-11-24T04:44:56.730144+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 232342,
+  "sha256": "83f9c08f33934245ce5a799b2c620e8dc98df314e3fc2121d19a6a1b43ecbae6",
+  "saved_path": "data/raw/land_property/molcfaga.gov.np-pages-scope-1192610506__20261124T044458Z.html",
+  "error_message": null
+}

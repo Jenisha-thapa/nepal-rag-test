@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Loan Brochure PDF",
+  "source_url": "https://ssf.gov.np/images/news/16774881749921_Loan%20Broucher%20.pdf",
+  "document_type": "pdf",
+  "fetched_at": "2026-11-24T04:46:21.496055+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 618102,
+  "sha256": "25c590cb26f6a29cfcade8d7e1e6f6b957da72002df1c9c8d98cbe936433e688",
+  "saved_path": "data/raw/employment_labour/SSF-Loan-Brochure-PDF__20261124T044621Z.pdf",
+  "error_message": null
+}

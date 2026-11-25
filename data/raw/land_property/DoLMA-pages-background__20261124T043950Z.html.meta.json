@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "DoLMA pages/background",
+  "source_url": "https://dolma.gov.np/pages/background",
+  "document_type": "about",
+  "fetched_at": "2026-11-24T04:39:45.222933+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 130073,
+  "sha256": "7794253398d3bf3be52bdd2960cdf8c71019ec287e58298ee181d82c46f2c4d9",
+  "saved_path": "data/raw/land_property/DoLMA-pages-background__20261124T043950Z.html",
+  "error_message": null
+}

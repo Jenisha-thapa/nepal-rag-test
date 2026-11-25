@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "health_social_welfare",
+  "source_name": "HIB karnali Province Offices",
+  "source_url": "https://hib.gov.np/pages/karnali-province/",
+  "document_type": "contact",
+  "fetched_at": "2026-11-24T04:44:04.087447+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 236512,
+  "sha256": "a4a5dcf519d6994b78c0fec010d7265d250b60de21a6e755dbbb81f18d9e0e8d",
+  "saved_path": "data/raw/health_social_welfare/HIB-karnali-Province-Offices__20261124T044404Z.html",
+  "error_message": null
+}

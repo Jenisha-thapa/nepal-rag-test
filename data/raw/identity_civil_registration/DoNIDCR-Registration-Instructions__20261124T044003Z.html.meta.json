@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "identity_civil_registration",
+  "source_name": "DoNIDCR Registration Instructions",
+  "source_url": "https://donidcr.gov.np/category/registration-instructions/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:40:02.314847+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 138541,
+  "sha256": "049bd47da8c9456b86d7c825698b5b0c799e9ebdb3ab046138b012d9947e3720",
+  "saved_path": "data/raw/identity_civil_registration/DoNIDCR-Registration-Instructions__20261124T044003Z.html",
+  "error_message": null
+}

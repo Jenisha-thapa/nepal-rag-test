@@ -1,0 +1,16 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "Land & Property Services",
+  "source_name": "Land Revenue Act 2034 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20240714221059id_/lawcommission.gov.np/np/wp-content/uploads/2021/01/मालपोत-ऐन-२०३४.pdf",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T05:57:12.727752+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 598549,
+  "sha256": "e6e5a99a489ba047d4f8623717d2d8f614d56ab086ffb9b99a2bc09f044c3fb9",
+  "saved_path": "data/raw/land_property/Land-Revenue-Act-2034-Nepal-Law-Commission-archived-copy__20261124T055722Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

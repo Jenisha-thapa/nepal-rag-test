@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "MoLCFAGA notice 547",
+  "source_url": "https://molcfaga.gov.np/content/547/sthaniya-tahabata-bhumi-byabasthapan-sambandhi-sewa-prabaha-ko-jaruri-suchana/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:41:54.426474+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 224114,
+  "sha256": "659dced37e5e5087d6d6f1660c9381854779fbf0fbe6e3aaf1ab4fb81aa844f0",
+  "saved_path": "data/raw/land_property/MoLCFAGA-notice-547__20261124T044156Z.html",
+  "error_message": null
+}

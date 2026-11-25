@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "SSF — Citizen Charter PDF",
+  "source_url": "https://ssf.gov.np/images/page_content/17900739747605_citizen%20charter.pdf",
+  "document_type": "charter",
+  "fetched_at": "2026-11-23T11:06:37.997945+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 201501,
+  "sha256": "e1fd1e96467d5e44f41ba23f3d3804cef2a71db3113c0c8b47cb3ce15d595967",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\employment_labour\\SSF-Citizen-Charter-PDF__20261123T110639Z.pdf",
+  "error_message": null
+}

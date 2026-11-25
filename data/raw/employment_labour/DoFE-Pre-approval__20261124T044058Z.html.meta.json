@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "DoFE Pre-approval",
+  "source_url": "https://dofe.gov.np/category/preapproval",
+  "document_type": "procedure",
+  "fetched_at": "2026-11-24T04:40:57.350034+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 195800,
+  "sha256": "14e1a4b42e70ac17430a04878b9379da00c096544a99a34d6d5ba9c8f88b7b4c",
+  "saved_path": "data/raw/employment_labour/DoFE-Pre-approval__20261124T044058Z.html",
+  "error_message": null
+}

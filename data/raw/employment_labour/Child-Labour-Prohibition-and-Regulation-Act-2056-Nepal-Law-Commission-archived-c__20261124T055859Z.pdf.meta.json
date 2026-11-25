@@ -1,0 +1,16 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "Child Labour (Prohibition and Regulation) Act 2056 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20260914124637id_/https://giwmscdnone.gov.np/media/pdf_upload/12._%E0%A4%AC%E0%A4%B2_%E0%A4%B6%E0%A4%B0%E0%A4%AE_%E0%A4%A8%E0%A4%B7%E0%A4%A7_%E0%A4%B0_%E0%A4%A8%E0%A4%AF%E0%A4%AE%E0%A4%A4_%E0%A4%97%E0%A4%B0%E0%A4%A8_%E0%A4%90%E0%A4%A8_%E0%A5%A8%E0%A5%A6%E0%A5%AB%E0%A5%AC.pdf",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T05:58:50.875192+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 577105,
+  "sha256": "c77e621d97f206f47b1c6032411a850cfd571b878106619fc9a576ee2debdda1",
+  "saved_path": "data/raw/employment_labour/Child-Labour-Prohibition-and-Regulation-Act-2056-Nepal-Law-Commission-archived-c__20261124T055859Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

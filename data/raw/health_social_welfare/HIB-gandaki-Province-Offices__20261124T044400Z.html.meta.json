@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "health_social_welfare",
+  "source_name": "HIB gandaki Province Offices",
+  "source_url": "https://hib.gov.np/pages/gandaki-province/",
+  "document_type": "contact",
+  "fetched_at": "2026-11-24T04:43:58.364090+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 256510,
+  "sha256": "28664e9d9c2575b25bbf6235c8e57f20ea86f783ec2f32bab7f66904eaceac9c",
+  "saved_path": "data/raw/health_social_welfare/HIB-gandaki-Province-Offices__20261124T044400Z.html",
+  "error_message": null
+}

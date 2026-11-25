@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "Department of Survey",
+  "source_url": "https://dos.gov.np/",
+  "document_type": "portal",
+  "fetched_at": "2026-11-24T04:40:58.229819+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 206851,
+  "sha256": "3ccf0e8214b681120ef071e17bd49cac829b23807dd7a7b79476d7a59b819ff3",
+  "saved_path": "data/raw/land_property/Department-of-Survey__20261124T044058Z.html",
+  "error_message": null
+}

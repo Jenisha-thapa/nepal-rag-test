@@ -1,0 +1,16 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "Contribution-based Social Security Act 2074 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20260717151227id_/https://giwmscdnone.gov.np/media/pdf_upload/14.%20%E0%A4%AF%E0%A5%8B%E0%A4%97%E0%A4%A6%E0%A4%BE%E0%A4%A8%E0%A4%AE%E0%A4%BE%20%E0%A4%86%E0%A4%A7%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%A4%20%E0%A4%B8%E0%A4%BE%E0%A4%AE%E0%A4%BE%E0%A4%9C%E0%A4%BF%E0%A4%95%20%E0%A4%B8%E0%A5%81%E0%A4%B0%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE%20%E0%A4%90%E0%A4%A8%2C%20%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AA_epil1c3.pdf",
+  "document_type": "act",
+  "fetched_at": "2026-11-24T05:58:33.869494+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 952980,
+  "sha256": "73bc8c4461cd94de6539b858cb81dd52b98a3b28c8aca8502c31cc2e9308bda8",
+  "saved_path": "data/raw/employment_labour/Contribution-based-Social-Security-Act-2074-Nepal-Law-Commission-archived-copy__20261124T055842Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

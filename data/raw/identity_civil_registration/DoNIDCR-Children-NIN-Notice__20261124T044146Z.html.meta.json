@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "identity_civil_registration",
+  "source_name": "DoNIDCR Children NIN Notice",
+  "source_url": "https://donidcr.gov.np/content/443/regarding-children-s-national-identification-number--nin-/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:41:45.817869+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 144024,
+  "sha256": "46c1c34198da04a182b5fcfa708323e5bdbdc10aa5bc519f11c91d35d49cf7de",
+  "saved_path": "data/raw/identity_civil_registration/DoNIDCR-Children-NIN-Notice__20261124T044146Z.html",
+  "error_message": null
+}

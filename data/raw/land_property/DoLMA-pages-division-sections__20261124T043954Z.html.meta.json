@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "DoLMA pages/division-sections",
+  "source_url": "https://dolma.gov.np/pages/division-sections",
+  "document_type": "about",
+  "fetched_at": "2026-11-24T04:39:51.597245+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 130108,
+  "sha256": "9c927c122dfad9c0410f9983d71a24abec0c824687c643f621343fe0d6e77022",
+  "saved_path": "data/raw/land_property/DoLMA-pages-division-sections__20261124T043954Z.html",
+  "error_message": null
+}

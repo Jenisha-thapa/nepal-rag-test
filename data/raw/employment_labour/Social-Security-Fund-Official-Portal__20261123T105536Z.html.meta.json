@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "Social Security Fund — Official Portal",
+  "source_url": "https://ssf.gov.np",
+  "document_type": "portal",
+  "fetched_at": "2026-11-23T10:55:36.288959+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 183746,
+  "sha256": "5127d9ef452f0c4a0ace62eac96221e0741f8b99d101a55e5a27d6c1e4124296",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\employment_labour\\Social-Security-Fund-Official-Portal__20261123T105536Z.html",
+  "error_message": null
+}

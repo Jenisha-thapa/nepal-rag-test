@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "SSF — Contact",
+  "source_url": "https://ssf.gov.np/contact",
+  "document_type": "contact",
+  "fetched_at": "2026-11-23T10:58:42.915079+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 120780,
+  "sha256": "0d73522ecb26c033bc10c78d3f1b18cd10d5e98197d9a49efef831b88d5f4197",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\employment_labour\\SSF-Contact__20261123T105842Z.html",
+  "error_message": null
+}

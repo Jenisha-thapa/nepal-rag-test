@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "Identity & Civil Registration",
+  "source_name": "DoNIDCR — Civil Registration FAQs",
+  "source_url": "https://donidcr.gov.np/pages/about-frequently-asked-questions--registration-5",
+  "document_type": "faq",
+  "fetched_at": "2026-11-23T10:59:59.708654+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 228162,
+  "sha256": "be92ac26c230aa74d89a6857ea926e2d4698b742f6bd2833861bc3041647210b",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\identity_civil_registration\\DoNIDCR-Civil-Registration-FAQs__20261123T110033Z.html",
+  "error_message": null
+}

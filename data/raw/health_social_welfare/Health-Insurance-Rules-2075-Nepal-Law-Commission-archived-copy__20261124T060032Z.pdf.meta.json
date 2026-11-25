@@ -1,0 +1,16 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "Health Insurance Rules 2075 (Nepal Law Commission, archived copy)",
+  "source_url": "https://web.archive.org/web/20240610062214id_/https://lawcommission.gov.np/np/wp-content/uploads/2021/01/%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A5%8D%E0%A4%AF-%E0%A4%AC%E0%A5%80%E0%A4%AE%E0%A4%BE-%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%E0%A4%BE%E0%A4%B5%E0%A4%B2%E0%A5%80-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AB.pdf",
+  "document_type": "rules",
+  "fetched_at": "2026-11-24T06:00:21.736360+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 2000706,
+  "sha256": "c74022455bac0998b22c13bf305aefad81490833d98251de1f2eb0ec00bc1934",
+  "saved_path": "data/raw/health_social_welfare/Health-Insurance-Rules-2075-Nepal-Law-Commission-archived-copy__20261124T060032Z.pdf",
+  "error_message": null,
+  "retrieved_by": "crawler"
+}

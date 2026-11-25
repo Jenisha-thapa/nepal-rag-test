@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "Identity & Civil Registration",
+  "source_name": "DoNIDCR — Notice on National ID Service Delivery",
+  "source_url": "https://donidcr.gov.np/content/461/public-notice-regarding-service-delivery-related-to/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-23T10:57:57.157870+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 144332,
+  "sha256": "ff84b219a9a16ac82348b7a526b05a290ac5533cdff47215d87a15a9a972aac1",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\identity_civil_registration\\DoNIDCR-Notice-on-National-ID-Service-Delivery__20261123T105807Z.html",
+  "error_message": null
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "identity_civil_registration",
+  "source_name": "DoNIDCR Local Registrar Responsibility",
+  "source_url": "https://donidcr.gov.np/content/460/regarding-the-responsibility-of-the-local-registrar-/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:41:48.533533+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 143869,
+  "sha256": "cd86c45a2429ad4cd947978b1bc4b263695ba432f366e51fe4626c2404ef5bcd",
+  "saved_path": "data/raw/identity_civil_registration/DoNIDCR-Local-Registrar-Responsibility__20261124T044149Z.html",
+  "error_message": null
+}

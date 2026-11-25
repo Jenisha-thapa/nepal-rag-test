@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "identity_civil_registration",
+  "source_name": "DoNIDCR Procedures Directory",
+  "source_url": "https://donidcr.gov.np/category/procedure_directory/",
+  "document_type": "procedure",
+  "fetched_at": "2026-11-24T04:39:50.186436+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 135263,
+  "sha256": "8d5eef7e47dcc229a16f789654bf8987e2c4934ba0e85acaac579e4894510838",
+  "saved_path": "data/raw/identity_civil_registration/DoNIDCR-Procedures-Directory__20261124T043951Z.html",
+  "error_message": null
+}

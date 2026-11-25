@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "Health & Social Welfare Services",
+  "source_name": "HIB — Hello Health Insurance Hotline",
+  "source_url": "https://hib.gov.np/carousel-detail/9/",
+  "document_type": "contact",
+  "fetched_at": "2026-11-23T10:58:42.961003+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 194457,
+  "sha256": "ba45f4cc17ec43f8809565e02a65ffa25747f0218df0e675bf3a0058aa10e14f",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\health_social_welfare\\HIB-Hello-Health-Insurance-Hotline__20261123T105901Z.html",
+  "error_message": null
+}

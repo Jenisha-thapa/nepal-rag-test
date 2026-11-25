@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "identity_civil_registration",
+  "source_name": "DoNIDCR Registration Circulars",
+  "source_url": "https://donidcr.gov.np/category/registration-circulars/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:39:55.899831+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 139837,
+  "sha256": "3c487633983a9eacc78456b2ce4d7241bbde54e8791e4d4ba3eb71142964ff59",
+  "saved_path": "data/raw/identity_civil_registration/DoNIDCR-Registration-Circulars__20261124T043956Z.html",
+  "error_message": null
+}

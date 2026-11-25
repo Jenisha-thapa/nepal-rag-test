@@ -1,0 +1,15 @@
+{
+  "domain_id": "health_social_welfare",
+  "domain_name_en": "health_social_welfare",
+  "source_name": "HIB Renewal Notice 2083-05-24",
+  "source_url": "https://hib.gov.np/content/363/notification-regarding-health-insurance-renewal-2083-05-24/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:40:36.434141+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 194479,
+  "sha256": "7b54bd7431fac03f98fcd205dd341118eab0adef8f136538dcc92feb557c51ab",
+  "saved_path": "data/raw/health_social_welfare/HIB-Renewal-Notice-2083-05-24__20261124T044037Z.html",
+  "error_message": null
+}

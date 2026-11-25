@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Mobile App",
+  "source_url": "https://ssf.gov.np/pages/mobile-app",
+  "document_type": "services",
+  "fetched_at": "2026-11-24T04:42:37.514465+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "content_length_bytes": 86874,
+  "sha256": "9797a2f394b01f02aef0a409572b0f96a96f1da7e55629c859bd1b5f00bc4195",
+  "saved_path": "data/raw/employment_labour/SSF-Mobile-App__20261124T044237Z.html",
+  "error_message": null
+}

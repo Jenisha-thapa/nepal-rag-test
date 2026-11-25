@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "employment_labour",
+  "source_name": "SSF Education Loan PDF",
+  "source_url": "https://ssf.gov.np/images/news/17457318268940_educattion%20loan.pdf",
+  "document_type": "pdf",
+  "fetched_at": "2026-11-24T04:46:19.027592+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "application/pdf",
+  "content_length_bytes": 134500,
+  "sha256": "32186cf3a543143cb4762176e75988b29dd0be55541a9baeb02d71621204f8d2",
+  "saved_path": "data/raw/employment_labour/SSF-Education-Loan-PDF__20261124T044619Z.pdf",
+  "error_message": null
+}

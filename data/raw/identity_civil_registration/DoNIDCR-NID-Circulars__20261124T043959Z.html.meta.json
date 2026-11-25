@@ -1,0 +1,15 @@
+{
+  "domain_id": "identity_civil_registration",
+  "domain_name_en": "identity_civil_registration",
+  "source_name": "DoNIDCR NID Circulars",
+  "source_url": "https://donidcr.gov.np/category/nationalid-circulars/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:39:57.961583+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 138013,
+  "sha256": "2d079b97aa6f9c254831229930fef6e77cbb8cfb1873adc0b93fc8ea6f7fc988",
+  "saved_path": "data/raw/identity_civil_registration/DoNIDCR-NID-Circulars__20261124T043959Z.html",
+  "error_message": null
+}

@@ -1,0 +1,15 @@
+{
+  "domain_id": "employment_labour",
+  "domain_name_en": "Employment & Labour Services",
+  "source_name": "DoFE — Automatic Re-entry Approval in FEIMS",
+  "source_url": "https://dofe.gov.np/content/243/automatic-approval-system-for-customers-returning-to/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-23T10:58:17.839062+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 208715,
+  "sha256": "6849ff0d3d16069671ecc304500dd3fffc42287f183a462da4f2d1b9eb5d54f0",
+  "saved_path": "C:\\nepal-rag-test\\data\\raw\\employment_labour\\DoFE-Automatic-Re-entry-Approval-in-FEIMS__20261123T105819Z.html",
+  "error_message": null
+}

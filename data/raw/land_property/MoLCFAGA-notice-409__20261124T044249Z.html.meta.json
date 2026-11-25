@@ -1,0 +1,15 @@
+{
+  "domain_id": "land_property",
+  "domain_name_en": "land_property",
+  "source_name": "MoLCFAGA notice 409",
+  "source_url": "https://molcfaga.gov.np/content/409/notice-of-the-ministry-of-land-management-/",
+  "document_type": "notice",
+  "fetched_at": "2026-11-24T04:42:47.555843+00:00",
+  "status": "ok",
+  "http_status_code": 200,
+  "content_type": "text/html; charset=utf-8",
+  "content_length_bytes": 224797,
+  "sha256": "9325c2078276c44c2961c0816fc845909949bf97a22a60f9781f533f44fd5c48",
+  "saved_path": "data/raw/land_property/MoLCFAGA-notice-409__20261124T044249Z.html",
+  "error_message": null
+}
